@@ -1,0 +1,69 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC ROUTE Log                                                     )
+(                                                                     )
+(    Drawing          : eI_Arrow_IMX8XML_RD_LAYOUT.brd                )
+(    Software Version : 17.2S053                                      )
+(    Date/Time        : Tue Apr 30 19:12:29 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (inch)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		NO
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+
+ WARNING(SPMHMF-326): Cannot find NC Route bit tool file 'ncroutebits.txt'
+ WARNING(SPMHMF-327): ... will auto-generate bit tool file 'ncroutebits_auto.txt'.
+
+ Auto-generating tool file 'ncroutebits_auto.txt' ...
+
+     0.0160  T01       
+     0.0236  T02       
+     0.0276  T03       
+
+-------------------------------------------------------------
+
+ Pre_processing route path data ...
+
+ WARNING(SPMHMF-296): No route path data was found for processing.
+
+
+-------------------------------------------------------------
+
+ Processing slot hole data ... TOP to BOTTOM 
+
+ OVAL      slots routed: 8
+ RECTANGLE slots routed: 3
+
+-------------------------------------------------------------
+
+ NC Route file 'eI_Arrow_IMX8XML_RD_LAYOUT_1-12.rou' created ...
+
+-------------------------------------------------------------
+
+ Program completed.
+

@@ -1,0 +1,2884 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><title>Net List Report</title></head>
+<body>
+<b><u>Design Name</u>&nbsp;D:/Projects/IMX8XML/gama/final/eI_Arrow_IMX8XML_RD_LAYOUT.brd</b><br>
+<b><u>Date</u>&nbsp;Tue Apr 30 19:27:54 2019</b><br>
+<body>
+<table align=center border=1><caption><b><u>Net List Report</u></b></caption>
+<tr>
+<td><b>Net Name</b></td>
+<td><b>Net Pins</b></td>
+</tr>
+<tr>
+<td nowrap=true>3V3OUT</td>
+<td nowrap=true>C16.1 U2.6</td>
+</tr>
+<tr>
+<td nowrap=true>3V3_MOD</td>
+<td nowrap=true>FB2.1 R33.2 U5.5</td>
+</tr>
+<tr>
+<td nowrap=true>5V_HDMI</td>
+<td nowrap=true>C468.1 D13.2 FB33.1 J14.18</td>
+</tr>
+<tr>
+<td nowrap=true>24M_XTALI</td>
+<td nowrap=true>U31.AP34 Y6.2</td>
+</tr>
+<tr>
+<td nowrap=true>24M_XTALO</td>
+<td nowrap=true>U31.AM34 Y6.1</td>
+</tr>
+<tr>
+<td nowrap=true>ADMA_I2C2_SCL</td>
+<td nowrap=true>J6.30 R72.1 R234.1 U28.1 U31.AE33</td>
+</tr>
+<tr>
+<td nowrap=true>ADMA_I2C2_SCL_3V3</td>
+<td nowrap=true>R108.1 R273.2 U8.32 U31.F14</td>
+</tr>
+<tr>
+<td nowrap=true>ADMA_I2C2_SDA</td>
+<td nowrap=true>J6.32 R61.1 R232.1 U28.8 U31.AC29</td>
+</tr>
+<tr>
+<td nowrap=true>ADMA_I2C2_SDA_3V3</td>
+<td nowrap=true>R110.1 R269.2 U8.33 U31.G15</td>
+</tr>
+<tr>
+<td nowrap=true>ADV7533_PWDN</td>
+<td nowrap=true>R278.2 R281.1 U38.C3</td>
+</tr>
+<tr>
+<td nowrap=true>ADV_A2VDD</td>
+<td nowrap=true>C453.1 C456.1 FB29.2 U38.G7</td>
+</tr>
+<tr>
+<td nowrap=true>ADV_AVDD</td>
+<td nowrap=true>C469.1 C470.1 FB34.2 U38.B4</td>
+</tr>
+<tr>
+<td nowrap=true>ADV_DVDD_V1P2</td>
+<td nowrap=true>C460.1 C461.1 C462.1 FB30.2 U38.D4 U38.E2 U38.E3 U38.E4 U38.G1</td>
+</tr>
+<tr>
+<td nowrap=true>ADV_PVDD</td>
+<td nowrap=true>C464.1 C465.1 FB32.2 U38.C6</td>
+</tr>
+<tr>
+<td nowrap=true>ADV_V3P3</td>
+<td nowrap=true>C466.1 C467.1 FB31.2 U38.B1</td>
+</tr>
+<tr>
+<td nowrap=true>ANA_TEST_OUT_N</td>
+<td nowrap=true>TP51.1 U31.AK34</td>
+</tr>
+<tr>
+<td nowrap=true>ANA_TEST_OUT_P</td>
+<td nowrap=true>TP52.1 U31.AL35</td>
+</tr>
+<tr>
+<td nowrap=true>AVDD_HUB</td>
+<td nowrap=true>C411.1 C412.1 FB27.1 U8.4</td>
+</tr>
+<tr>
+<td nowrap=true>BTREG_ON_GPIO0_01</td>
+<td nowrap=true>R54.2 U5.21 U31.G29</td>
+</tr>
+<tr>
+<td nowrap=true>BT_DEV_WAKE_GPIO3_17</td>
+<td nowrap=true>U5.39 U31.AR11</td>
+</tr>
+<tr>
+<td nowrap=true>BT_HOST_WAKE_GPIO3_22</td>
+<td nowrap=true>U5.40 U31.AK10</td>
+</tr>
+<tr>
+<td nowrap=true>BT_LED_GPIO4_18</td>
+<td nowrap=true>R113.1 U31.H22</td>
+</tr>
+<tr>
+<td nowrap=true>BT_UART0_CTS</td>
+<td nowrap=true>R253.1 U5.31</td>
+</tr>
+<tr>
+<td nowrap=true>BT_UART0_RTS</td>
+<td nowrap=true>R254.1 U5.32</td>
+</tr>
+<tr>
+<td nowrap=true>BT_UART0_RX</td>
+<td nowrap=true>R257.2 U31.AB32</td>
+</tr>
+<tr>
+<td nowrap=true>BT_UART0_TX</td>
+<td nowrap=true>R256.2 U31.AA29</td>
+</tr>
+<tr>
+<td nowrap=true>CHASSIS_DEBUG_USB</td>
+<td nowrap=true>C278.2 J5.6 J5.7 J5.8 J5.9 J5.10 J5.11 R150.1</td>
+</tr>
+<tr>
+<td nowrap=true>CHASSIS_ETHERNET</td>
+<td nowrap=true>C238.2 J4.SHLD1 J4.SHLD2 R127.2</td>
+</tr>
+<tr>
+<td nowrap=true>CHASSIS_SIMCARD</td>
+<td nowrap=true>C260.1 J16.8 J16.9 J16.10 J16.11 J16.12 J16.13 J16.14 J16.15 J16.16 J16.17 R142.1</td>
+</tr>
+<tr>
+<td nowrap=true>CLK_125M</td>
+<td nowrap=true>R152.2 R153.1 R154.2 U1.41</td>
+</tr>
+<tr>
+<td nowrap=true>CLOCK_GPIO3_8</td>
+<td nowrap=true>J10.17 U31.AR25</td>
+</tr>
+<tr>
+<td nowrap=true>CPUPWRON</td>
+<td nowrap=true>C7.1 D3.2 R4.1 SW1.B1 SW1.B2</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MCN_CONN</td>
+<td nowrap=true>J10.4 U36.2</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MCP_CONN</td>
+<td nowrap=true>J10.2 U36.1</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MDN0_CONN</td>
+<td nowrap=true>J10.10 U36.5</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MDN1_CONN</td>
+<td nowrap=true>J10.16 U35.2</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MDN2_CONN</td>
+<td nowrap=true>J10.22 U35.5</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MDN3_CONN</td>
+<td nowrap=true>J10.28 U34.2</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MDP0_CONN</td>
+<td nowrap=true>J10.8 U36.4</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MDP1_CONN</td>
+<td nowrap=true>J10.14 U35.1</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MDP2_CONN</td>
+<td nowrap=true>J10.20 U35.4</td>
+</tr>
+<tr>
+<td nowrap=true>CSI_MDP3_CONN</td>
+<td nowrap=true>J10.26 U34.1</td>
+</tr>
+<tr>
+<td nowrap=true>D+</td>
+<td nowrap=true>J15.3 U11.3</td>
+</tr>
+<tr>
+<td nowrap=true>D-</td>
+<td nowrap=true>J15.2 U11.2</td>
+</tr>
+<tr>
+<td nowrap=true>DBG_DA</td>
+<td nowrap=true>R19.2 U2.2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_ATO</td>
+<td nowrap=true>U31.AB8</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA0_A</td>
+<td nowrap=true>U31.W3 U32.H2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA0_B</td>
+<td nowrap=true>U31.K4 U32.R2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA1_A</td>
+<td nowrap=true>U31.W7 U32.J2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA1_B</td>
+<td nowrap=true>U31.L3 U32.P2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA2_A</td>
+<td nowrap=true>U31.W1 U32.H9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA2_B</td>
+<td nowrap=true>U31.P8 U32.R9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA3_A</td>
+<td nowrap=true>U31.AB4 U32.H10</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA3_B</td>
+<td nowrap=true>U31.L7 U32.R10</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA4_A</td>
+<td nowrap=true>U31.U3 U32.H11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA4_B</td>
+<td nowrap=true>U31.N3 U32.R11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA5_A</td>
+<td nowrap=true>U31.U1 U32.J11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CA5_B</td>
+<td nowrap=true>U31.N1 U32.P11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CKE0_A</td>
+<td nowrap=true>R59.1 U31.Y2 U32.J4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CKE0_B</td>
+<td nowrap=true>R55.1 U31.N7 U32.P4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CKE1_A</td>
+<td nowrap=true>R58.1 U31.Y4 U32.J5</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CKE1_B</td>
+<td nowrap=true>R56.1 U31.L5 U32.P5</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CLKA_N</td>
+<td nowrap=true>U31.Y6 U32.J9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CLKA_P</td>
+<td nowrap=true>U31.W5 U32.J8</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CLKB_N</td>
+<td nowrap=true>U31.N5 U32.P9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CLKB_P</td>
+<td nowrap=true>U31.P6 U32.P8</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CS0_A</td>
+<td nowrap=true>U31.AC5 U32.H4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CS0_B</td>
+<td nowrap=true>U31.K6 U32.R4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CS1_A</td>
+<td nowrap=true>U31.Y8 U32.H3</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_CS1_B</td>
+<td nowrap=true>U31.K2 U32.R3</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DMI0_A</td>
+<td nowrap=true>U31.AJ7 U32.C3</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DMI0_B</td>
+<td nowrap=true>U31.D4 U32.Y3</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DMI1_A</td>
+<td nowrap=true>U31.AF4 U32.C10</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DMI1_B</td>
+<td nowrap=true>U31.E1 U32.Y10</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ00</td>
+<td nowrap=true>U31.AF6 U32.E2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ01</td>
+<td nowrap=true>U31.AE5 U32.F2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ02</td>
+<td nowrap=true>U31.AH8 U32.B2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ03</td>
+<td nowrap=true>U31.AF8 U32.C2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ04</td>
+<td nowrap=true>U31.AM4 U32.B4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ05</td>
+<td nowrap=true>U31.AM6 U32.F4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ06</td>
+<td nowrap=true>U31.AL5 U32.C4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ07</td>
+<td nowrap=true>U31.AL7 U32.E4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ08</td>
+<td nowrap=true>U31.AJ1 U32.E11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ09</td>
+<td nowrap=true>U31.AJ3 U32.F11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ10</td>
+<td nowrap=true>U31.AH2 U32.B11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ11</td>
+<td nowrap=true>U31.AH4 U32.C11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ12</td>
+<td nowrap=true>U31.AC3 U32.E9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ13</td>
+<td nowrap=true>U31.AE3 U32.B9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ14</td>
+<td nowrap=true>U31.AB2 U32.F9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ15</td>
+<td nowrap=true>U31.AC1 U32.C9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ16</td>
+<td nowrap=true>U31.B6 U32.Y4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ17</td>
+<td nowrap=true>U31.E9 U32.U4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ18</td>
+<td nowrap=true>U31.E7 U32.AA4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ19</td>
+<td nowrap=true>U31.D8 U32.V4</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ20</td>
+<td nowrap=true>U31.G7 U32.V2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ21</td>
+<td nowrap=true>U31.H8 U32.U2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ22</td>
+<td nowrap=true>U31.H6 U32.Y2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ23</td>
+<td nowrap=true>U31.G5 U32.AA2</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ24</td>
+<td nowrap=true>U31.H2 U32.V9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ25</td>
+<td nowrap=true>U31.H4 U32.U9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ26</td>
+<td nowrap=true>U31.G3 U32.Y9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ27</td>
+<td nowrap=true>U31.G1 U32.AA9</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ28</td>
+<td nowrap=true>U31.A7 U32.U11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ29</td>
+<td nowrap=true>U31.B4 U32.Y11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ30</td>
+<td nowrap=true>U31.B2 U32.AA11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQ31</td>
+<td nowrap=true>U31.A5 U32.V11</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQS0_N</td>
+<td nowrap=true>U31.AH6 U32.E3</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQS0_P</td>
+<td nowrap=true>U31.AJ5 U32.D3</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQS1_N</td>
+<td nowrap=true>U31.AE1 U32.E10</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQS1_P</td>
+<td nowrap=true>U31.AF2 U32.D10</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQS2_N</td>
+<td nowrap=true>U31.E5 U32.V3</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQS2_P</td>
+<td nowrap=true>U31.D6 U32.W3</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQS3_N</td>
+<td nowrap=true>U31.E3 U32.V10</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DQS3_P</td>
+<td nowrap=true>U31.D2 U32.W10</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DTO0</td>
+<td nowrap=true>U31.AC7</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_DTO1</td>
+<td nowrap=true>U31.AE7</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_VREF</td>
+<td nowrap=true>TP21.1 U31.AD8</td>
+</tr>
+<tr>
+<td nowrap=true>DDR_ZQ</td>
+<td nowrap=true>R49.2 U31.G9</td>
+</tr>
+<tr>
+<td nowrap=true>DEBUG_VCC_3V3</td>
+<td nowrap=true>C18.1 C21.1 C23.1 C24.2 C256.1 C346.1 C360.1 R227.2 U2.10 U2.14 U2.26 U2.31 U3.1 U17.5 U26.1 U29.5</td>
+</tr>
+<tr>
+<td nowrap=true>DEBUG_VCC_5V0</td>
+<td nowrap=true>C15.1 C261.1 C333.1 C338.2 FB19.2 R19.1 R20.1 R174.1 U2.3 U2.42 U17.1 U17.3</td>
+</tr>
+<tr>
+<td nowrap=true>DIS_WRITE_GPIO4_13</td>
+<td nowrap=true>R216.1 U27.7 U31.B22</td>
+</tr>
+<tr>
+<td nowrap=true>DMIC1_I2S_CLK</td>
+<td nowrap=true>MIC1.4 MIC2.4 MIC3.4 MIC4.4 R27.2 R128.2</td>
+</tr>
+<tr>
+<td nowrap=true>DMIC1_I2S_DATA</td>
+<td nowrap=true>R117.2 R126.2 U31.J29</td>
+</tr>
+<tr>
+<td nowrap=true>DMIC1_I2S_WS</td>
+<td nowrap=true>MIC1.1 MIC2.1 MIC3.1 MIC4.1 R237.2</td>
+</tr>
+<tr>
+<td nowrap=true>DMIC2_I2S_DATA</td>
+<td nowrap=true>R118.2 R125.2 U31.F32</td>
+</tr>
+<tr>
+<td nowrap=true>DN1</td>
+<td nowrap=true>J13.2 U41.2</td>
+</tr>
+<tr>
+<td nowrap=true>DN3</td>
+<td nowrap=true>J12.2 U42.2</td>
+</tr>
+<tr>
+<td nowrap=true>DP1</td>
+<td nowrap=true>J13.3 U41.3</td>
+</tr>
+<tr>
+<td nowrap=true>DP3</td>
+<td nowrap=true>J12.3 U42.3</td>
+</tr>
+<tr>
+<td nowrap=true>DRAM_ODT_CA_A</td>
+<td nowrap=true>R68.2 U32.G2</td>
+</tr>
+<tr>
+<td nowrap=true>DRAM_ODT_CA_B</td>
+<td nowrap=true>R53.2 U32.T2</td>
+</tr>
+<tr>
+<td nowrap=true>DRAM_RST</td>
+<td nowrap=true>R52.1 U31.L1 U32.T11</td>
+</tr>
+<tr>
+<td nowrap=true>DRAM_ZQ0</td>
+<td nowrap=true>R261.2 U32.A5</td>
+</tr>
+<tr>
+<td nowrap=true>DRAM_ZQ1</td>
+<td nowrap=true>R260.2 U32.A8</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MCN_CONN</td>
+<td nowrap=true>J10.23 U39.2</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MCP_CONN</td>
+<td nowrap=true>J10.21 U39.1</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MDN0_CONN</td>
+<td nowrap=true>J10.29 U33.5</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MDN1_CONN</td>
+<td nowrap=true>J10.35 U39.5</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MDN2_CONN</td>
+<td nowrap=true>J10.41 U33.2</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MDN3_CONN</td>
+<td nowrap=true>J10.47 U40.2</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MDP0_CONN</td>
+<td nowrap=true>J10.27 U33.4</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MDP1_CONN</td>
+<td nowrap=true>J10.33 U39.4</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MDP2_CONN</td>
+<td nowrap=true>J10.39 U33.1</td>
+</tr>
+<tr>
+<td nowrap=true>DSI_MDP3_CONN</td>
+<td nowrap=true>J10.45 U40.1</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_INT_B_GPIO3_15</td>
+<td nowrap=true>R7.2 U1.38 U31.AK12</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_MDC</td>
+<td nowrap=true>R10.1 R43.2 U1.36</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_MDIO</td>
+<td nowrap=true>R8.1 R236.2 U1.37</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_RXC</td>
+<td nowrap=true>C51.2 R9.1 R16.2 R170.1 U31.D28</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_RXD0</td>
+<td nowrap=true>R15.2 R168.1 U1.32 U31.A31</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_RXD1</td>
+<td nowrap=true>R14.2 R169.1 U1.31 U31.C29</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_RXD2</td>
+<td nowrap=true>R11.2 R166.1 U1.28 U31.G27</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_RXD3</td>
+<td nowrap=true>R17.2 R167.1 U1.27 U31.H26</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_RX_CTL</td>
+<td nowrap=true>R13.2 R36.1 U1.33 U31.B30</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_TXC</td>
+<td nowrap=true>C52.2 R40.2 U1.24</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_TXD0</td>
+<td nowrap=true>U1.19 U31.G25</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_TXD1</td>
+<td nowrap=true>U1.20 U31.B28</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_TXD2</td>
+<td nowrap=true>U1.21 U31.E27</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_TXD3</td>
+<td nowrap=true>U1.22 U31.F26</td>
+</tr>
+<tr>
+<td nowrap=true>ENET0_RGMII_TX_CTL</td>
+<td nowrap=true>U1.25 U31.A29</td>
+</tr>
+<tr>
+<td nowrap=true>ETHERNET_RESET_GPIO4_14</td>
+<td nowrap=true>D5.C U31.G21</td>
+</tr>
+<tr>
+<td nowrap=true>EXT_VCC_5V0</td>
+<td nowrap=true>C198.1 C457.1 C473.1 C477.1 FB3.2 FB25.1 FB33.2 R77.1 R274.1 R275.1 R280.1 R285.1 R286.1 R289.1 R291.1 TP14.1 U8.18 U37.6 U44.6 U48.6</td>
+</tr>
+<tr>
+<td nowrap=true>FAN_CONTROL_GPIO0_04</td>
+<td nowrap=true>R31.1 U31.D32</td>
+</tr>
+<tr>
+<td nowrap=true>FORCE_WDOG_RST_B_1V8</td>
+<td nowrap=true>R63.1 R137.2 U13.2 U14.2</td>
+</tr>
+<tr>
+<td nowrap=true>FTC_LVSHFT_OE</td>
+<td nowrap=true>R220.2 U3.5 U29.4</td>
+</tr>
+<tr>
+<td nowrap=true>FTDIA_RX</td>
+<td nowrap=true>U2.23 U26.3</td>
+</tr>
+<tr>
+<td nowrap=true>FTDIA_TX</td>
+<td nowrap=true>U2.24 U26.2</td>
+</tr>
+<tr>
+<td nowrap=true>FTDIB_RX</td>
+<td nowrap=true>U2.39 U3.2</td>
+</tr>
+<tr>
+<td nowrap=true>FTDIB_TX</td>
+<td nowrap=true>U2.40 U3.3</td>
+</tr>
+<tr>
+<td nowrap=true>FTDI_M40_UART0_RX</td>
+<td nowrap=true>U3.6 U31.V32</td>
+</tr>
+<tr>
+<td nowrap=true>FTDI_M40_UART0_TX</td>
+<td nowrap=true>U3.7 U31.V30</td>
+</tr>
+<tr>
+<td nowrap=true>FTDI_POR#</td>
+<td nowrap=true>C311.1 R174.2 U2.4</td>
+</tr>
+<tr>
+<td nowrap=true>FTDI_RSTOUT#</td>
+<td nowrap=true>R179.1 U2.5</td>
+</tr>
+<tr>
+<td nowrap=true>FTDI_UART2_RX</td>
+<td nowrap=true>R69.1 U26.7</td>
+</tr>
+<tr>
+<td nowrap=true>FTDI_UART2_TX</td>
+<td nowrap=true>R259.1 U26.6</td>
+</tr>
+<tr>
+<td nowrap=true>FT_SLEEP1#</td>
+<td nowrap=true>R227.1 TP3.1 U2.13 U26.5</td>
+</tr>
+<tr>
+<td nowrap=true>FT_SLEEP2#</td>
+<td nowrap=true>TP5.1 U2.29 U29.1</td>
+</tr>
+<tr>
+<td nowrap=true>FT_USB_DM</td>
+<td nowrap=true>U2.8 U20.7</td>
+</tr>
+<tr>
+<td nowrap=true>FT_USB_DP</td>
+<td nowrap=true>R179.2 U2.7 U20.6</td>
+</tr>
+<tr>
+<td nowrap=true>FUNCTIONAL_RESET_3V3</td>
+<td nowrap=true>J6.22 R162.2 U31.H10</td>
+</tr>
+<tr>
+<td nowrap=true>GND</td>
+<td nowrap=true>C1.2 C2.2 C3.2 C4.2 C7.2 C8.2 C9.2 C10.1 C11.2 C12.2 C13.1 C14.2 C15.2 C16.2 C17.2 C18.2 C19.2 C20.2 C21.2 C22.2 C23.2 C24.1 C25.2 C26.2 C27.2 C28.2 C29.2 C30.2 C31.2 C32.2 C33.2 C34.2 C35.2 C36.2 C37.2 C38.2 C39.1 C40.2 C41.2 C42.2 C43.2 C44.2 C45.2 C46.1 C47.2 C48.2 C49.2 C50.2 C51.1 C52.1 C53.2 C54.1 C55.2 C56.1 C57.2 C58.2 C59.2 C60.2 C61.2 C62.2 C63.2 C64.2 C65.2 C66.2 C67.1 C68.1 C69.2 C70.2 C71.2 C72.1 C73.1 C74.1 C75.2 C76.2 C77.2 C78.2 C79.2 C80.1 C81.2 C82.2 C83.1 C84.1 C85.1 C86.2 C87.2 C88.2 C89.2 C90.1 C91.2 C92.2 C93.2 C94.2 C95.2 C96.1 C97.1 C98.2 C99.2 C100.1 C101.2 C102.2 C103.2 C104.2 C105.1 C106.2 C107.1 C108.2 C109.2 C110.2 C111.2 C112.2 C113.2 C114.2 C115.2 C116.1 C117.2 C118.2 C119.2 C120.2 C121.2 C122.2 C123.2 C124.2 C125.2 C126.2 C127.2 C128.1 C129.2 C130.2 C131.1 C132.1 C133.1 C134.2 C135.1 C136.2 C137.2 C138.2 C139.2 C140.1 C141.2 C142.2 C143.1 C144.1 C145.2 C146.2 C147.2 C148.2 C149.2 C150.2 C151.2 C152.2 C153.1 C154.2 C155.2 C156.2 C157.2 C158.1 C159.1 C161.2 C162.2 C163.2 C164.2 C165.2 C166.1 C167.1 C168.2 C169.1 C170.2 C171.2 C172.1 C173.2 C174.1 C175.1 C176.1 C177.1 C178.2 C179.1 C180.2 C181.2 C182.2 C183.2 C184.2 C185.1 C188.2 C189.2 C190.1 C191.1 C192.2 C193.2 C194.2 C195.2 C196.2 C197.2 C198.2 C199.2 C200.2 C201.2 C202.2 C203.2 C204.2 C205.2 C206.2 C207.2 C208.2 C209.1 C210.2 C211.2 C212.1 C213.1 C214.2 C215.1 C216.2 C218.2 C219.2 C220.2 C223.1 C224.2 C225.2 C226.1 C227.2 C228.2 C229.2 C230.2 C231.2 C232.2 C233.1 C234.1 C235.2 C236.2 C237.1 C238.1 C239.1 C240.2 C241.2 C242.2 C243.2 C244.2 C245.2 C246.2 C247.2 C248.2 C249.2 C250.2 C252.2 C253.2 C254.2 C255.2 C256.2 C257.2 C258.2 C259.1 C260.2 C261.2 C262.2 C263.2 C264.2 C265.2 C266.2 C267.2 C268.2 C269.2 C270.2 C271.2 C272.2 C273.2 C274.2 C275.2 C276.2 C277.2 C278.1 C279.2 C280.2 C281.2 C282.1 C283.2 C284.2 C285.2 C286.2 C287.2 C288.2 C289.2 C290.2 C291.1 C292.2 C293.2 C294.2 C295.2 C296.2 C297.2 C298.2 C299.2 C300.2 C301.2 C302.2 C303.2 C304.2 C305.2 C306.2 C307.1 C308.2 C309.2 C310.2 C311.2 C312.2 C313.2 C314.2 C315.2 C316.2 C317.2 C318.2 C319.2 C320.2 C321.1 C322.2 C323.2 C324.2 C325.2 C326.2 C327.2 C328.2 C329.2 C330.2 C331.2 C332.2 C333.2 C334.2 C335.2 C336.2 C337.2 C338.1 C339.2 C340.2 C341.2 C342.2 C343.2 C344.2 C345.2 C346.2 C347.2 C348.2 C349.2 C350.2 C351.2 C352.2 C353.2 C354.2 C355.2 C356.2 C357.2 C358.2 C359.2 C360.2 C361.2 C362.2 C363.2 C364.2 C365.2 C366.2 C367.2 C368.2 C369.2 C370.2 C371.2 C374.2 C375.2 C376.2 C377.2 C378.2 C379.2 C380.2 C381.2 C382.2 C384.2 C385.2 C386.2 C387.2 C388.2 C389.2 C390.2 C392.2 C393.2 C394.2 C395.2 C396.2 C397.2 C398.1 C399.2 C400.2 C401.2 C402.2 C403.2 C404.2 C405.2 C406.2 C407.2 C408.2 C409.2 C410.2 C411.2 C412.2 C413.2 C414.2 C415.2 C416.2 C417.2 C418.2 C419.2 C420.2 C421.2 C422.2 C423.2 C424.2 C425.2 C426.2 C427.2 C428.2 C429.2 C430.2 C431.2 C432.2 C433.2 C434.2 C435.2 C436.2 C437.2 C438.2 C439.2 C440.2 C441.2 C442.2 C443.2 C444.2 C445.2 C446.2 C447.2 C448.2 C449.2 C450.2 C451.2 C452.2 C453.2 C456.2 C457.2 C460.2 C461.2 C462.2 C464.2 C465.2 C466.2 C467.2 C468.2 C469.2 C470.2 C471.2 C472.2 C473.2 C474.2 C475.2 C476.2 C477.2 C478.2 C479.2 C480.2 C481.2 C482.2 C1671.2 C1673.2 C1674.2 C1675.2 CLIP1.1 CLIP1.2 CLIP1.3 CLIP2.1 CLIP2.2 CLIP2.3 CLIP3.1 CLIP3.2 CLIP3.3 CLIP4.1 CLIP4.2 CLIP4.3 CLIP5.1 CLIP5.2 CLIP5.3 CLIP6.1 CLIP6.2 CLIP6.3 CLIP7.1 CLIP7.2 CLIP7.3 CLIP8.1 CLIP8.2 CLIP8.3 CLIP9.1 CLIP9.2 CLIP9.3 D2.1 D3.1 D6.1 D7.1 D8.1 D9.1 D10.1 D12.1 D13.1 D14.1 D15.1 D16.1 D17.1 D18.1 D19.1 ESD1.2 J1.1 J4.P10 J5.5 J6.4 J6.9 J6.15 J6.18 J6.21 J6.26 J6.27 J6.29 J6.34 J6.35 J6.37 J6.40 J6.43 J6.50 J7.3 J7.5 J8.1 J8.2 J8.39 J8.40 J9.3 J9.4 J10.6 J10.12 J10.13 J10.18 J10.19 J10.24 J10.25 J10.30 J10.31 J10.37 J10.40 J10.43 J10.46 J10.49 J10.52 J10.55 J10.58 J11.6 J12.4 J12.7 J13.4 J13.7 J14.2 J14.5 J14.8 J14.11 J15.5 J16.4 L1.3 MH1.1 MH2.1 MH3.1 MH4.1 MH5.1 MH6.1 MIC1.3 MIC2.3 MIC3.3 MIC4.3 R5.2 R18.2 R26.2 R28.2 R36.2 R38.2 R39.2 R41.2 R42.1 R44.2 R45.2 R46.2 R47.2 R49.1 R52.2 R55.2 R56.2 R58.2 R59.2 R65.2 R74.1 R78.1 R92.2 R95.2 R98.1 R115.2 R120.2 R122.2 R127.1 R130.2 R131.1 R133.2 R134.2 R136.2 R138.2 R142.2 R147.2 R150.2 R151.2 R153.2 R158.1 R165.1 R166.2 R167.2 R168.2 R169.2 R170.2 R171.2 R177.1 R180.2 R185.2 R190.1 R195.1 R197.1 R200.1 R203.2 R206.1 R212.2 R213.2 R215.2 R216.2 R217.2 R219.2 R228.2 R239.1 R243.2 R248.1 R270.2 R272.2 R276.1 R278.1 R279.2 R282.1 R283.2 R288.1 R294.1 R296.2 R304.2 R305.2 R314.2 SW1.A1 SW1.A2 SW2.A1 SW2.A2 TP7.1 U1.29 U1.49 U2.9 U2.18 U2.25 U2.34 U2.45 U2.47 U3.4 U4.2 U5.1 U5.6 U5.14 U5.18 U5.24 U5.28 U5.30 U5.41 U5.42 U5.43 U5.44 U5.45 U5.46 U5.47 U6.3 U7.B3 U7.C1 U7.E5 U8.40 U8.69 U9.3 U9.8 U10.3 U10.8 U11.5 U11.8 U12.2 U13.1 U14.3 U15.2 U16.5 U16.12 U16.13 U16.14 U16.15 U16.16 U16.17 U16.18 U16.33 U17.2 U18.4 U19.6 U20.5 U20.8 U21.1 U21.4 U21.19 U21.20 U21.21 U21.22 U21.33 U22.2 U22.3 U23.5 U23.8 U24.8 U24.9 U24.10 U24.11 U24.12 U24.13 U24.15 U25.45 U25.51 U25.57 U26.4 U27.4 U27.9 U28.2 U28.9 U29.2 U29.3 U30.4 U30.8 U30.9 U30.10 U30.11 U30.12 U30.13 U30.25 U31.A3 U31.A17 U31.A33 U31.AA1 U31.AA3 U31.AA5 U31.AA7 U31.AA13 U31.AA21 U31.AA27 U31.AB10 U31.AB14 U31.AB22 U31.AB26 U31.AB30 U31.AC15 U31.AC19 U31.AC23 U31.AC27 U31.AC33 U31.AD2 U31.AD4 U31.AD6 U31.AD10 U31.AD20 U31.AD26 U31.AE9 U31.AE27 U31.AE29 U31.AF10 U31.AF12 U31.AF14 U31.AF16 U31.AF18 U31.AF20 U31.AF22 U31.AF24 U31.AF26 U31.AF30 U31.AG1 U31.AG3 U31.AG5 U31.AG7 U31.AG9 U31.AG11 U31.AG13 U31.AG15 U31.AG17 U31.AG19 U31.AG21 U31.AG23 U31.AG25 U31.AG27 U31.AG33 U31.AH14 U31.AH16 U31.AH18 U31.AH20 U31.AH22 U31.AH24 U31.AH26 U31.AK2 U31.AK4 U31.AK6 U31.AK8 U31.AK30 U31.AL13 U31.AL15 U31.AL17 U31.AL19 U31.AL21 U31.AL23 U31.AL25 U31.AL33 U31.AN1 U31.AN3 U31.AN5 U31.AN7 U31.AN9 U31.AN11 U31.AN13 U31.AN27 U31.AN31 U31.AR3 U31.B8 U31.B14 U31.B20 U31.C1 U31.C3 U31.C5 U31.C7 U31.C9 U31.C11 U31.C13 U31.C17 U31.C19 U31.C23 U31.C27 U31.C31 U31.C35 U31.E15 U31.E29 U31.E33 U31.F2 U31.F4 U31.F6 U31.F8 U31.F10 U31.F18 U31.F20 U31.F24 U31.H30 U31.J1 U31.J3 U31.J5 U31.J7 U31.J9 U31.J11 U31.J13 U31.J15 U31.J17 U31.J19 U31.J21 U31.J23 U31.J25 U31.J27 U31.J33 U31.K10 U31.K12 U31.K14 U31.K16 U31.K18 U31.K20 U31.K22 U31.K24 U31.K26 U31.L9 U31.L27 U31.M2 U31.M4 U31.M6 U31.M8 U31.M10 U31.M26 U31.M30 U31.N13 U31.N17 U31.N21 U31.N27 U31.N33 U31.P10 U31.P14 U31.P18 U31.P26 U31.R1 U31.R3 U31.R5 U31.R9 U31.R15 U31.R19 U31.R23 U31.R27 U31.T10 U31.T16 U31.T20 U31.T24 U31.T26 U31.T28 U31.T30 U31.T32 U31.T34 U31.U9 U31.U13 U31.U17 U31.U21 U31.U27 U31.U31 U31.V2 U31.V4 U31.V6 U31.V8 U31.V10 U31.V14 U31.V18 U31.V22 U31.V26 U31.W9 U31.W15 U31.W19 U31.W23 U31.W27 U31.W31 U31.W33 U31.W35 U31.Y10 U31.Y16 U31.Y20 U31.Y26 U31.Y28 U31.Y30 U32.A3 U32.A10 U32.AB3 U32.AB5 U32.AB8 U32.AB10 U32.C1 U32.C5 U32.C8 U32.C12 U32.D2 U32.D4 U32.D9 U32.D11 U32.E1 U32.E5 U32.E8 U32.E12 U32.G1 U32.G3 U32.G5 U32.G8 U32.G10 U32.G12 U32.J1 U32.J3 U32.J10 U32.J12 U32.K2 U32.K4 U32.K9 U32.K11 U32.N2 U32.N4 U32.N9 U32.N11 U32.P1 U32.P3 U32.P10 U32.P12 U32.T1 U32.T3 U32.T5 U32.T8 U32.T10 U32.T12 U32.V1 U32.V5 U32.V8 U32.V12 U32.W2 U32.W4 U32.W9 U32.W11 U32.Y1 U32.Y5 U32.Y8 U32.Y12 U33.3 U33.8 U34.3 U34.8 U35.3 U35.8 U36.3 U36.8 U37.5 U37.7 U38.B2 U38.B3 U38.B5 U38.B6 U38.C7 U38.E1 U38.E7 U38.F1 U38.F7 U39.3 U39.8 U40.3 U40.8 U41.5 U41.8 U42.5 U42.8 U43.2 U44.5 U44.7 U45.5 U45.6 U45.7 U45.8 U46.3 U46.8 U47.3 U47.8 U48.5 U48.7 U49.2 U50.2 U51.2 U52.2 U181.B2 Y1.2 Y1.4 Y2.2 Y2.4 Y3.2 Y4.2 Y4.4</td>
+</tr>
+<tr>
+<td nowrap=true>GND_CHASSIS</td>
+<td nowrap=true>C478.1 J11.11 J11.12 J11.13 J11.14 J11.15 J11.16 J12.A1 J12.A2 J13.A1 J13.A2 J14.G1 J14.G2 J14.G3 J14.G4 J15.6 J15.7 J15.8 J15.9 J15.10 J15.11 R305.1</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_CEC</td>
+<td nowrap=true>D20.2 R301.2 R304.1 U38.D6</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_DDC_SCL</td>
+<td nowrap=true>R274.2 R302.2 U38.D1</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_DDC_SDA</td>
+<td nowrap=true>R275.2 R303.2 U38.D2</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_HPD</td>
+<td nowrap=true>J14.19 R296.1 U38.C4 U45.4</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_I2S_LRCLK</td>
+<td nowrap=true>R247.1 R272.1 U38.D3</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_I2S_MCLK</td>
+<td nowrap=true>R47.1 R50.1 U38.C2</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_INT</td>
+<td nowrap=true>R290.1 U31.AM26 U38.D5</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_SPDIF_DATA</td>
+<td nowrap=true>R238.1 R255.1 U38.C1</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX0_M</td>
+<td nowrap=true>U38.A6 U46.2</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX0_M_CONN</td>
+<td nowrap=true>J14.9 U46.9</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX0_P</td>
+<td nowrap=true>U38.A5 U46.1</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX0_P_CONN</td>
+<td nowrap=true>J14.7 U46.10</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX1_M</td>
+<td nowrap=true>U38.A4 U47.5</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX1_M_CONN</td>
+<td nowrap=true>J14.6 U47.6</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX1_P</td>
+<td nowrap=true>U38.A3 U47.4</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX1_P_CONN</td>
+<td nowrap=true>J14.4 U47.7</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX2_M</td>
+<td nowrap=true>U38.A2 U47.2</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX2_M_CONN</td>
+<td nowrap=true>J14.3 U47.9</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX2_P</td>
+<td nowrap=true>U38.A1 U47.1</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TX2_P_CONN</td>
+<td nowrap=true>J14.1 U47.10</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TXC_M</td>
+<td nowrap=true>U38.B7 U46.5</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TXC_M_CONN</td>
+<td nowrap=true>J14.12 U46.6</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TXC_P</td>
+<td nowrap=true>U38.A7 U46.4</td>
+</tr>
+<tr>
+<td nowrap=true>HDMI_TMDS_TXC_P_CONN</td>
+<td nowrap=true>J14.10 U46.7</td>
+</tr>
+<tr>
+<td nowrap=true>HS_MIPI_CSI0_I2C0_SCL</td>
+<td nowrap=true>R97.1 R101.2 U31.AP26</td>
+</tr>
+<tr>
+<td nowrap=true>HS_MIPI_CSI0_I2C0_SDA</td>
+<td nowrap=true>R99.1 R100.2 U31.AM24</td>
+</tr>
+<tr>
+<td nowrap=true>HS_MIPI_DSI0_I2C_SCL</td>
+<td nowrap=true>R60.1 R105.2 U31.AC31</td>
+</tr>
+<tr>
+<td nowrap=true>HS_MIPI_DSI0_I2C_SDA</td>
+<td nowrap=true>R62.1 R104.2 U31.AB28</td>
+</tr>
+<tr>
+<td nowrap=true>HS_SPI0_CS0</td>
+<td nowrap=true>J10.7 U31.R33</td>
+</tr>
+<tr>
+<td nowrap=true>HS_SPI0_MISO</td>
+<td nowrap=true>J10.11 U31.P34</td>
+</tr>
+<tr>
+<td nowrap=true>HS_SPI0_MOSI</td>
+<td nowrap=true>J10.1 U31.R31</td>
+</tr>
+<tr>
+<td nowrap=true>HS_SPI0_SCK</td>
+<td nowrap=true>J10.9 U31.P30</td>
+</tr>
+<tr>
+<td nowrap=true>HUB_1V2</td>
+<td nowrap=true>C199.1 C200.1 C201.1 C202.1 C203.1 C224.1 C225.1 C227.1 C228.1 C229.1 C230.1 C231.1 C402.1 C403.1 C404.1 C405.1 C406.1 C413.1 C447.1 C448.1 C449.1 C450.1 C451.1 C452.1 FB11.1 U8.7 U8.10 U8.13 U8.16 U8.34 U8.37 U8.43 U8.46 U8.49 U8.52 U8.53</td>
+</tr>
+<tr>
+<td nowrap=true>I2C3_SCL_ADV</td>
+<td nowrap=true>R273.1 U38.E6</td>
+</tr>
+<tr>
+<td nowrap=true>I2C3_SDA_ADV</td>
+<td nowrap=true>R269.1 U38.E5</td>
+</tr>
+<tr>
+<td nowrap=true>IMX8_ON_OFF_BUTTON</td>
+<td nowrap=true>J8.4 R3.1 R4.2 U31.AH28</td>
+</tr>
+<tr>
+<td nowrap=true>INT_SENSOR</td>
+<td nowrap=true>R184.2 R189.2 U31.N31</td>
+</tr>
+<tr>
+<td nowrap=true>JTAG_POR_B_1V8</td>
+<td nowrap=true>C241.1 D2.2 R173.1 SW2.B1 SW2.B2 U13.3 U22.4</td>
+</tr>
+<tr>
+<td nowrap=true>JTAG_SRST_B</td>
+<td nowrap=true>D10.2 J7.10 R22.2 U22.1</td>
+</tr>
+<tr>
+<td nowrap=true>JTAG_TCK</td>
+<td nowrap=true>D7.2 J7.4 R18.1 U31.AE31</td>
+</tr>
+<tr>
+<td nowrap=true>JTAG_TDI</td>
+<td nowrap=true>D9.2 J7.8 R21.2 U31.AH34</td>
+</tr>
+<tr>
+<td nowrap=true>JTAG_TDO</td>
+<td nowrap=true>D8.2 J7.6 U31.AF32</td>
+</tr>
+<tr>
+<td nowrap=true>JTAG_TMS</td>
+<td nowrap=true>D6.2 J7.2 R12.2 U31.AG35</td>
+</tr>
+<tr>
+<td nowrap=true>JTAG_TRST_B_CONN</td>
+<td nowrap=true>J7.9 TP43.1</td>
+</tr>
+<tr>
+<td nowrap=true>JTAG_TRST_GPIO</td>
+<td nowrap=true>R64.1 R65.1 R66.1 U31.AD28</td>
+</tr>
+<tr>
+<td nowrap=true>JTAG_VTREF</td>
+<td nowrap=true>J7.1 R163.2</td>
+</tr>
+<tr>
+<td nowrap=true>LDO_O</td>
+<td nowrap=true>TP36.1 U1.43</td>
+</tr>
+<tr>
+<td nowrap=true>LED1_PHYAD0</td>
+<td nowrap=true>R149.2 R151.1 U1.17 U18.2</td>
+</tr>
+<tr>
+<td nowrap=true>LED1_PHYAD0_3V3</td>
+<td nowrap=true>J4.P12 U18.7</td>
+</tr>
+<tr>
+<td nowrap=true>LED2_PHYAD1</td>
+<td nowrap=true>R147.1 R148.2 U1.15 U18.3</td>
+</tr>
+<tr>
+<td nowrap=true>LED2_PHYAD1_3V3</td>
+<td nowrap=true>J4.P13 U18.6</td>
+</tr>
+<tr>
+<td nowrap=true>LED_WWAN#</td>
+<td nowrap=true>J6.42 LED1.1</td>
+</tr>
+<tr>
+<td nowrap=true>LI_BAT</td>
+<td nowrap=true>C341.1 U25.46</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_I2C0_SCL</td>
+<td nowrap=true>J8.15 R233.2</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_I2C0_SDA</td>
+<td nowrap=true>J8.17 R235.2</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_I2C1_SCL</td>
+<td nowrap=true>J8.19 R234.2</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_I2C1_SDA</td>
+<td nowrap=true>J8.21 R232.2</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_I2S_DIN</td>
+<td nowrap=true>J8.22 R246.2</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_I2S_DOUT</td>
+<td nowrap=true>J8.20 R244.2</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_I2S_SCLK</td>
+<td nowrap=true>J8.18 R242.2</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_I2S_WS</td>
+<td nowrap=true>J8.16 R51.2</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_UART_1_CTS</td>
+<td nowrap=true>J8.3 U31.K32</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_UART_1_RTS</td>
+<td nowrap=true>J8.9 U31.N29</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_UART_1_RX</td>
+<td nowrap=true>J8.7 U31.L31</td>
+</tr>
+<tr>
+<td nowrap=true>LS_EXP_UART_1_TX</td>
+<td nowrap=true>J8.5 U31.H34</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO0_19</td>
+<td nowrap=true>J8.31 U31.G35</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO0_20</td>
+<td nowrap=true>J8.27 U31.L29</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO0_29</td>
+<td nowrap=true>J8.23 U31.M32</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO1_00</td>
+<td nowrap=true>J8.29 U31.P28</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO1_01</td>
+<td nowrap=true>J8.33 U31.P32</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO1_03</td>
+<td nowrap=true>J8.24 U31.R29</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO1_07</td>
+<td nowrap=true>J8.25 U31.R35</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO1_13</td>
+<td nowrap=true>J8.30 U31.V34</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO1_14</td>
+<td nowrap=true>J8.32 U31.W29</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO1_31</td>
+<td nowrap=true>J8.26 U31.AD30</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO2_00</td>
+<td nowrap=true>J8.28 U31.AF34</td>
+</tr>
+<tr>
+<td nowrap=true>LS_GPIO3_07</td>
+<td nowrap=true>J8.34 U31.AP24</td>
+</tr>
+<tr>
+<td nowrap=true>LS_M4_I2C0_1V8_SCL</td>
+<td nowrap=true>R233.1 R251.1 U24.2 U27.6 U31.U35</td>
+</tr>
+<tr>
+<td nowrap=true>LS_M4_I2C0_1V8_SDA</td>
+<td nowrap=true>R235.1 R250.1 U24.3 U27.5 U31.U33</td>
+</tr>
+<tr>
+<td nowrap=true>LS_SPI3_CS0</td>
+<td nowrap=true>J8.12 U31.J31</td>
+</tr>
+<tr>
+<td nowrap=true>LS_SPI3_MISO</td>
+<td nowrap=true>J8.10 U31.G33</td>
+</tr>
+<tr>
+<td nowrap=true>LS_SPI3_MOSI</td>
+<td nowrap=true>J8.14 U31.F34</td>
+</tr>
+<tr>
+<td nowrap=true>LS_SPI3_SCK</td>
+<td nowrap=true>J8.8 U31.H32</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_CLK_N</td>
+<td nowrap=true>U31.AN21 U36.9</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_CLK_P</td>
+<td nowrap=true>U31.AR21 U36.10</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_DATA0_N</td>
+<td nowrap=true>U31.AM22 U36.6</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_DATA0_P</td>
+<td nowrap=true>U31.AP22 U36.7</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_DATA1_N</td>
+<td nowrap=true>U31.AM20 U35.9</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_DATA1_P</td>
+<td nowrap=true>U31.AP20 U35.10</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_DATA2_N</td>
+<td nowrap=true>U31.AN23 U35.6</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_DATA2_P</td>
+<td nowrap=true>U31.AR23 U35.7</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_DATA3_N</td>
+<td nowrap=true>U31.AN19 U34.9</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_DATA3_P</td>
+<td nowrap=true>U31.AR19 U34.10</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_CSI0_MCLK_OUT</td>
+<td nowrap=true>J10.15 R91.2</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_CLK_N</td>
+<td nowrap=true>U31.AJ19 U39.9</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_CLK_P</td>
+<td nowrap=true>U31.AK20 U39.10</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_DATA0_N</td>
+<td nowrap=true>U31.AJ21 U33.6</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_DATA0_P</td>
+<td nowrap=true>U31.AK22 U33.7</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_DATA1_N</td>
+<td nowrap=true>U31.AJ17 U39.6</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_DATA1_P</td>
+<td nowrap=true>U31.AK18 U39.7</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_DATA2_N</td>
+<td nowrap=true>U31.AJ23 U33.9</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_DATA2_P</td>
+<td nowrap=true>U31.AK24 U33.10</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_DATA3_N</td>
+<td nowrap=true>U31.AJ15 U40.9</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI0_DATA3_P</td>
+<td nowrap=true>U31.AK16 U40.10</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_CLK_N</td>
+<td nowrap=true>U31.AM16 U38.F2</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_CLK_P</td>
+<td nowrap=true>U31.AP16 U38.G2</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_DATA0_N</td>
+<td nowrap=true>U31.AN15 U38.F3</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_DATA0_P</td>
+<td nowrap=true>U31.AR15 U38.G3</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_DATA1_N</td>
+<td nowrap=true>U31.AN17 U38.F4</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_DATA1_P</td>
+<td nowrap=true>U31.AR17 U38.G4</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_DATA2_N</td>
+<td nowrap=true>U31.AM14 U38.F5</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_DATA2_P</td>
+<td nowrap=true>U31.AP14 U38.G5</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_DATA3_N</td>
+<td nowrap=true>U31.AM18 U38.F6</td>
+</tr>
+<tr>
+<td nowrap=true>MIPI_DSI1_DATA3_P</td>
+<td nowrap=true>U31.AP18 U38.G6</td>
+</tr>
+<tr>
+<td nowrap=true>MODE_SEL0</td>
+<td nowrap=true>R92.1 R262.2 U8.23</td>
+</tr>
+<tr>
+<td nowrap=true>MODE_SEL1</td>
+<td nowrap=true>R95.1 R263.2 U8.24</td>
+</tr>
+<tr>
+<td nowrap=true>N17845184</td>
+<td nowrap=true>C373.1 U31.B16</td>
+</tr>
+<tr>
+<td nowrap=true>N17845197</td>
+<td nowrap=true>C372.1 U31.A15</td>
+</tr>
+<tr>
+<td nowrap=true>N17845292</td>
+<td nowrap=true>R38.1 U31.E13</td>
+</tr>
+<tr>
+<td nowrap=true>N17845517</td>
+<td nowrap=true>R44.1 U31.D14</td>
+</tr>
+<tr>
+<td nowrap=true>N17845560</td>
+<td nowrap=true>R25.1 R26.1 U31.H18</td>
+</tr>
+<tr>
+<td nowrap=true>N17883478</td>
+<td nowrap=true>R265.1 U31.AP12</td>
+</tr>
+<tr>
+<td nowrap=true>N17883496</td>
+<td nowrap=true>R85.1 U31.AK14</td>
+</tr>
+<tr>
+<td nowrap=true>N17883499</td>
+<td nowrap=true>R266.1 U31.AR13</td>
+</tr>
+<tr>
+<td nowrap=true>N17883524</td>
+<td nowrap=true>R87.1 U31.AJ13</td>
+</tr>
+<tr>
+<td nowrap=true>N17883527</td>
+<td nowrap=true>R89.1 U31.AH12</td>
+</tr>
+<tr>
+<td nowrap=true>N17920823</td>
+<td nowrap=true>R207.1 SW3.8</td>
+</tr>
+<tr>
+<td nowrap=true>N17920844</td>
+<td nowrap=true>R202.1 SW3.7</td>
+</tr>
+<tr>
+<td nowrap=true>N17920898</td>
+<td nowrap=true>R194.1 SW3.6</td>
+</tr>
+<tr>
+<td nowrap=true>N17920919</td>
+<td nowrap=true>R191.1 SW3.5</td>
+</tr>
+<tr>
+<td nowrap=true>N18411356</td>
+<td nowrap=true>R94.1 U31.AL11</td>
+</tr>
+<tr>
+<td nowrap=true>N19779597</td>
+<td nowrap=true>R37.1 U31.G19</td>
+</tr>
+<tr>
+<td nowrap=true>N19835751</td>
+<td nowrap=true>J10.32 R101.1</td>
+</tr>
+<tr>
+<td nowrap=true>N19835771</td>
+<td nowrap=true>J10.34 R100.1</td>
+</tr>
+<tr>
+<td nowrap=true>N19835791</td>
+<td nowrap=true>J10.36 R105.1</td>
+</tr>
+<tr>
+<td nowrap=true>N19835812</td>
+<td nowrap=true>J10.38 R104.1</td>
+</tr>
+<tr>
+<td nowrap=true>N19835886</td>
+<td nowrap=true>J10.51 R112.2</td>
+</tr>
+<tr>
+<td nowrap=true>N19835894</td>
+<td nowrap=true>J10.53 R111.2</td>
+</tr>
+<tr>
+<td nowrap=true>N19835904</td>
+<td nowrap=true>J10.60 R109.1</td>
+</tr>
+<tr>
+<td nowrap=true>N20823966</td>
+<td nowrap=true>FB6.1 U31.L11</td>
+</tr>
+<tr>
+<td nowrap=true>N20847342</td>
+<td nowrap=true>R77.2 R78.2 U8.17</td>
+</tr>
+<tr>
+<td nowrap=true>N20847489</td>
+<td nowrap=true>R102.2 U8.58</td>
+</tr>
+<tr>
+<td nowrap=true>N20847498</td>
+<td nowrap=true>R103.2 U8.57</td>
+</tr>
+<tr>
+<td nowrap=true>N20847570</td>
+<td nowrap=true>C445.1 R107.2 R267.2 U8.31</td>
+</tr>
+<tr>
+<td nowrap=true>N20847807</td>
+<td nowrap=true>TP27.1 U8.20</td>
+</tr>
+<tr>
+<td nowrap=true>N20847856</td>
+<td nowrap=true>R74.2 U8.2</td>
+</tr>
+<tr>
+<td nowrap=true>N20847869</td>
+<td nowrap=true>R98.2 U8.26</td>
+</tr>
+<tr>
+<td nowrap=true>N20848167</td>
+<td nowrap=true>C197.1 C207.1 C208.1 C399.1 C400.1 C408.1 C415.1 C424.1 FB26.1 U8.1 U8.3 U8.19 U8.27</td>
+</tr>
+<tr>
+<td nowrap=true>N20851229</td>
+<td nowrap=true>MIC2.2 R119.1 R120.1</td>
+</tr>
+<tr>
+<td nowrap=true>N20851294</td>
+<td nowrap=true>C239.2 C240.1 FB15.2 MIC3.5 R124.2</td>
+</tr>
+<tr>
+<td nowrap=true>N20851324</td>
+<td nowrap=true>MIC3.2 R122.1 R124.1</td>
+</tr>
+<tr>
+<td nowrap=true>N20851343</td>
+<td nowrap=true>MIC3.6 R125.1</td>
+</tr>
+<tr>
+<td nowrap=true>N20851384</td>
+<td nowrap=true>C234.2 C235.1 FB13.2 MIC1.5 R116.2</td>
+</tr>
+<tr>
+<td nowrap=true>N20851401</td>
+<td nowrap=true>MIC1.2 R115.1 R116.1</td>
+</tr>
+<tr>
+<td nowrap=true>N20852432</td>
+<td nowrap=true>R46.1 U31.G31</td>
+</tr>
+<tr>
+<td nowrap=true>N20852441</td>
+<td nowrap=true>R238.2 U31.D34</td>
+</tr>
+<tr>
+<td nowrap=true>N20852448</td>
+<td nowrap=true>TP16.1 U31.E35</td>
+</tr>
+<tr>
+<td nowrap=true>N20852504</td>
+<td nowrap=true>TP23.1 U31.AJ27</td>
+</tr>
+<tr>
+<td nowrap=true>N20852518</td>
+<td nowrap=true>TP26.1 U31.AM30</td>
+</tr>
+<tr>
+<td nowrap=true>N20852533</td>
+<td nowrap=true>TP28.1 U31.AJ25</td>
+</tr>
+<tr>
+<td nowrap=true>N20852536</td>
+<td nowrap=true>TP25.1 U31.AM28</td>
+</tr>
+<tr>
+<td nowrap=true>N20852576</td>
+<td nowrap=true>C194.1 C430.1 C431.1 C432.1 FB28.1 U31.AE23</td>
+</tr>
+<tr>
+<td nowrap=true>N20876753</td>
+<td nowrap=true>R91.1 U31.AN25</td>
+</tr>
+<tr>
+<td nowrap=true>N20878724</td>
+<td nowrap=true>R40.1 U31.H24</td>
+</tr>
+<tr>
+<td nowrap=true>N20878839</td>
+<td nowrap=true>R236.1 U31.B32</td>
+</tr>
+<tr>
+<td nowrap=true>N20878852</td>
+<td nowrap=true>R43.1 U31.D30</td>
+</tr>
+<tr>
+<td nowrap=true>N21020024</td>
+<td nowrap=true>R154.1 U31.F28</td>
+</tr>
+<tr>
+<td nowrap=true>N21068165</td>
+<td nowrap=true>C236.1 C237.2 FB14.2 MIC4.5 R129.2</td>
+</tr>
+<tr>
+<td nowrap=true>N21068195</td>
+<td nowrap=true>MIC4.2 R129.1 R130.1</td>
+</tr>
+<tr>
+<td nowrap=true>N21118919</td>
+<td nowrap=true>C232.1 C233.2 FB12.2 MIC2.5 R119.2</td>
+</tr>
+<tr>
+<td nowrap=true>N21314289</td>
+<td nowrap=true>R27.1 U31.H28</td>
+</tr>
+<tr>
+<td nowrap=true>N21314322</td>
+<td nowrap=true>TP17.1 U31.E31</td>
+</tr>
+<tr>
+<td nowrap=true>N21527949</td>
+<td nowrap=true>R88.1 U8.22</td>
+</tr>
+<tr>
+<td nowrap=true>N21527958</td>
+<td nowrap=true>R84.1 U8.21</td>
+</tr>
+<tr>
+<td nowrap=true>N21830961</td>
+<td nowrap=true>C187.2 U8.5</td>
+</tr>
+<tr>
+<td nowrap=true>N21830990</td>
+<td nowrap=true>C186.2 U8.6</td>
+</tr>
+<tr>
+<td nowrap=true>N21863549</td>
+<td nowrap=true>C242.1 R128.1</td>
+</tr>
+<tr>
+<td nowrap=true>N21863803</td>
+<td nowrap=true>MIC1.6 R118.1</td>
+</tr>
+<tr>
+<td nowrap=true>N21863941</td>
+<td nowrap=true>MIC4.6 R126.1</td>
+</tr>
+<tr>
+<td nowrap=true>N21864000</td>
+<td nowrap=true>MIC2.6 R117.1</td>
+</tr>
+<tr>
+<td nowrap=true>N21864486</td>
+<td nowrap=true>TP30.1 U31.AR29</td>
+</tr>
+<tr>
+<td nowrap=true>N21864521</td>
+<td nowrap=true>TP29.1 U31.AN29</td>
+</tr>
+<tr>
+<td nowrap=true>N21957647</td>
+<td nowrap=true>R237.1 U31.F30</td>
+</tr>
+<tr>
+<td nowrap=true>N21970037</td>
+<td nowrap=true>R205.1 U25.22</td>
+</tr>
+<tr>
+<td nowrap=true>N21970067</td>
+<td nowrap=true>R204.1 U25.23</td>
+</tr>
+<tr>
+<td nowrap=true>N21970101</td>
+<td nowrap=true>R209.1 U25.21</td>
+</tr>
+<tr>
+<td nowrap=true>N21970136</td>
+<td nowrap=true>R201.1 U25.24</td>
+</tr>
+<tr>
+<td nowrap=true>N21970156</td>
+<td nowrap=true>R211.1 U25.19</td>
+</tr>
+<tr>
+<td nowrap=true>N21970170</td>
+<td nowrap=true>TP47.1 U25.52</td>
+</tr>
+<tr>
+<td nowrap=true>N21971746</td>
+<td nowrap=true>R222.2 U25.16</td>
+</tr>
+<tr>
+<td nowrap=true>N21971772</td>
+<td nowrap=true>R187.2 U25.43</td>
+</tr>
+<tr>
+<td nowrap=true>N21971859</td>
+<td nowrap=true>C330.1 C331.1 C358.1 R188.2 R193.2 U25.17 U25.26 U25.27</td>
+</tr>
+<tr>
+<td nowrap=true>N21982429</td>
+<td nowrap=true>R131.2 R132.1 U16.28</td>
+</tr>
+<tr>
+<td nowrap=true>N21987510</td>
+<td nowrap=true>L9.2 U25.5</td>
+</tr>
+<tr>
+<td nowrap=true>N21987588</td>
+<td nowrap=true>L11.2 U25.6</td>
+</tr>
+<tr>
+<td nowrap=true>N21987717</td>
+<td nowrap=true>L10.2 U25.9</td>
+</tr>
+<tr>
+<td nowrap=true>N21987795</td>
+<td nowrap=true>L8.2 U25.10</td>
+</tr>
+<tr>
+<td nowrap=true>N21987840</td>
+<td nowrap=true>L6.2 R315.1 U25.33</td>
+</tr>
+<tr>
+<td nowrap=true>N21987909</td>
+<td nowrap=true>L5.2 R316.1 U25.34</td>
+</tr>
+<tr>
+<td nowrap=true>N21988006</td>
+<td nowrap=true>R231.2 U25.1</td>
+</tr>
+<tr>
+<td nowrap=true>N21988030</td>
+<td nowrap=true>L4.2 U25.36</td>
+</tr>
+<tr>
+<td nowrap=true>N21988032</td>
+<td nowrap=true>R192.2 U25.44</td>
+</tr>
+<tr>
+<td nowrap=true>N21996787</td>
+<td nowrap=true>R86.1 U31.AL9</td>
+</tr>
+<tr>
+<td nowrap=true>N21996790</td>
+<td nowrap=true>R82.1 U31.AJ11</td>
+</tr>
+<tr>
+<td nowrap=true>N21996793</td>
+<td nowrap=true>R81.1 U31.AM8</td>
+</tr>
+<tr>
+<td nowrap=true>N21996870</td>
+<td nowrap=true>R93.1 U31.AM10</td>
+</tr>
+<tr>
+<td nowrap=true>N21997749</td>
+<td nowrap=true>R133.1 U16.32</td>
+</tr>
+<tr>
+<td nowrap=true>N21997916</td>
+<td nowrap=true>C246.1 U16.1</td>
+</tr>
+<tr>
+<td nowrap=true>N21997969</td>
+<td nowrap=true>C247.1 R139.2 U16.2</td>
+</tr>
+<tr>
+<td nowrap=true>N21997994</td>
+<td nowrap=true>C245.1 R139.1</td>
+</tr>
+<tr>
+<td nowrap=true>N21998601</td>
+<td nowrap=true>C251.1 R138.1 R140.1 U16.3</td>
+</tr>
+<tr>
+<td nowrap=true>N21998694</td>
+<td nowrap=true>C6.2 L2.1 R143.2 U16.6 U16.7 U16.8 U16.9 U16.10 U16.11 U16.19 U16.20 U16.34</td>
+</tr>
+<tr>
+<td nowrap=true>N21998959</td>
+<td nowrap=true>C251.2 C266.1 C268.1 C270.1 C271.1 FB18.2 L2.2 R140.2</td>
+</tr>
+<tr>
+<td nowrap=true>N21999850</td>
+<td nowrap=true>R135.1 U16.30</td>
+</tr>
+<tr>
+<td nowrap=true>N22000135</td>
+<td nowrap=true>R136.1 U16.29</td>
+</tr>
+<tr>
+<td nowrap=true>N22000515</td>
+<td nowrap=true>R134.1 U16.31</td>
+</tr>
+<tr>
+<td nowrap=true>N22213542</td>
+<td nowrap=true>R51.1 U31.L33</td>
+</tr>
+<tr>
+<td nowrap=true>N22213590</td>
+<td nowrap=true>R242.1 U31.J35</td>
+</tr>
+<tr>
+<td nowrap=true>N22213658</td>
+<td nowrap=true>R246.1 U31.M34</td>
+</tr>
+<tr>
+<td nowrap=true>N22213659</td>
+<td nowrap=true>R244.1 U31.K34</td>
+</tr>
+<tr>
+<td nowrap=true>N22214074</td>
+<td nowrap=true>R50.2 U31.L35</td>
+</tr>
+<tr>
+<td nowrap=true>N22214090</td>
+<td nowrap=true>R247.2 U31.N35</td>
+</tr>
+<tr>
+<td nowrap=true>N22421630</td>
+<td nowrap=true>R2.1 U16.21</td>
+</tr>
+<tr>
+<td nowrap=true>N22421685</td>
+<td nowrap=true>C6.1 R2.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24257448</td>
+<td nowrap=true>C4.1 J3.1 L1.4 R1.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24262295</td>
+<td nowrap=true>R70.1 U31.AF28</td>
+</tr>
+<tr>
+<td nowrap=true>N24262321</td>
+<td nowrap=true>R76.1 U31.AH30</td>
+</tr>
+<tr>
+<td nowrap=true>N24272914</td>
+<td nowrap=true>C8.1 C9.1 C277.1 FB1.1 U1.1 U1.12</td>
+</tr>
+<tr>
+<td nowrap=true>N24273039</td>
+<td nowrap=true>C264.1 C267.1 C272.1 C274.1 FB16.2 U1.4 U1.9</td>
+</tr>
+<tr>
+<td nowrap=true>N24273181</td>
+<td nowrap=true>C273.1 C275.1 C276.1 FB17.2 U1.44</td>
+</tr>
+<tr>
+<td nowrap=true>N24273240</td>
+<td nowrap=true>R5.1 U1.48</td>
+</tr>
+<tr>
+<td nowrap=true>N24273268</td>
+<td nowrap=true>R9.2 U1.35</td>
+</tr>
+<tr>
+<td nowrap=true>N24273462</td>
+<td nowrap=true>C10.2 U1.46 Y1.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24273509</td>
+<td nowrap=true>C13.2 U1.45 Y1.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24278912</td>
+<td nowrap=true>TP32.1 U8.30</td>
+</tr>
+<tr>
+<td nowrap=true>N24278938</td>
+<td nowrap=true>TP31.1 U8.29</td>
+</tr>
+<tr>
+<td nowrap=true>N24304672</td>
+<td nowrap=true>R276.2 U38.D7</td>
+</tr>
+<tr>
+<td nowrap=true>N24454038</td>
+<td nowrap=true>C217.2 R83.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24544786</td>
+<td nowrap=true>R212.1 U27.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24544795</td>
+<td nowrap=true>R219.1 R224.2 U27.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24544797</td>
+<td nowrap=true>R217.1 U27.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24562659</td>
+<td nowrap=true>R221.1 U28.6</td>
+</tr>
+<tr>
+<td nowrap=true>N24562678</td>
+<td nowrap=true>R223.2 U28.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24562697</td>
+<td nowrap=true>R226.2 U28.5</td>
+</tr>
+<tr>
+<td nowrap=true>N24564639</td>
+<td nowrap=true>TP33.1 U7.B5</td>
+</tr>
+<tr>
+<td nowrap=true>N24581462</td>
+<td nowrap=true>C289.1 R159.1 U21.8</td>
+</tr>
+<tr>
+<td nowrap=true>N24581613</td>
+<td nowrap=true>R175.2 U21.28</td>
+</tr>
+<tr>
+<td nowrap=true>N24581623</td>
+<td nowrap=true>R176.2 U21.29</td>
+</tr>
+<tr>
+<td nowrap=true>N24581653</td>
+<td nowrap=true>L7.1 R178.2 U21.23 U21.24</td>
+</tr>
+<tr>
+<td nowrap=true>N24581659</td>
+<td nowrap=true>C304.1 C306.1 FB21.2 L7.2 U21.32</td>
+</tr>
+<tr>
+<td nowrap=true>N24581771</td>
+<td nowrap=true>R177.2 U21.31</td>
+</tr>
+<tr>
+<td nowrap=true>N24581779</td>
+<td nowrap=true>R157.2 U21.12</td>
+</tr>
+<tr>
+<td nowrap=true>N24581824</td>
+<td nowrap=true>TP41.1 U21.5</td>
+</tr>
+<tr>
+<td nowrap=true>N24581855</td>
+<td nowrap=true>C305.1 R172.2 U21.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24581859</td>
+<td nowrap=true>C294.1 R164.2 U21.7</td>
+</tr>
+<tr>
+<td nowrap=true>N24581889</td>
+<td nowrap=true>L3.1 R156.2 U21.17 U21.18</td>
+</tr>
+<tr>
+<td nowrap=true>N24581895</td>
+<td nowrap=true>C295.1 C296.1 FB20.2 L3.2 U21.9</td>
+</tr>
+<tr>
+<td nowrap=true>N24581948</td>
+<td nowrap=true>C312.1 U21.30</td>
+</tr>
+<tr>
+<td nowrap=true>N24581952</td>
+<td nowrap=true>R158.2 U21.10</td>
+</tr>
+<tr>
+<td nowrap=true>N24581974</td>
+<td nowrap=true>C287.1 U21.11</td>
+</tr>
+<tr>
+<td nowrap=true>N24581992</td>
+<td nowrap=true>C308.1 R172.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24581994</td>
+<td nowrap=true>C298.1 R164.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24582014</td>
+<td nowrap=true>R171.1 U21.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24582076</td>
+<td nowrap=true>R165.2 U21.6</td>
+</tr>
+<tr>
+<td nowrap=true>N24587170</td>
+<td nowrap=true>R35.1 U31.G23</td>
+</tr>
+<tr>
+<td nowrap=true>N24588187</td>
+<td nowrap=true>J11.10 R268.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24590294</td>
+<td nowrap=true>R199.1 U24.5</td>
+</tr>
+<tr>
+<td nowrap=true>N24590325</td>
+<td nowrap=true>R184.1 U24.7</td>
+</tr>
+<tr>
+<td nowrap=true>N24590349</td>
+<td nowrap=true>R189.1 U24.6</td>
+</tr>
+<tr>
+<td nowrap=true>N24590353</td>
+<td nowrap=true>R197.2 R198.1 U24.4</td>
+</tr>
+<tr>
+<td nowrap=true>N24590803</td>
+<td nowrap=true>J4.P11 R123.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24590879</td>
+<td nowrap=true>J4.P14 R121.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24599092</td>
+<td nowrap=true>J6.10 R144.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24599128</td>
+<td nowrap=true>J6.12 R145.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24599152</td>
+<td nowrap=true>J6.14 R146.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24599219</td>
+<td nowrap=true>J6.20 R160.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24599271</td>
+<td nowrap=true>LED1.2 R23.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24599327</td>
+<td nowrap=true>J6.36 U23.7</td>
+</tr>
+<tr>
+<td nowrap=true>N24599337</td>
+<td nowrap=true>J6.38 U23.6</td>
+</tr>
+<tr>
+<td nowrap=true>N24611103</td>
+<td nowrap=true>C17.1 R20.2 U2.46</td>
+</tr>
+<tr>
+<td nowrap=true>N24611303</td>
+<td nowrap=true>C20.1 U2.43 Y2.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24611331</td>
+<td nowrap=true>C19.1 U2.44 Y2.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24614104</td>
+<td nowrap=true>LED7.1 U50.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24614106</td>
+<td nowrap=true>LED7.2 R309.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24614125</td>
+<td nowrap=true>R295.2 U50.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24614166</td>
+<td nowrap=true>LED6.1 U51.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24614168</td>
+<td nowrap=true>LED6.2 R310.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24614187</td>
+<td nowrap=true>R297.2 U51.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24614228</td>
+<td nowrap=true>LED5.1 U52.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24614230</td>
+<td nowrap=true>LED5.2 R311.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24614249</td>
+<td nowrap=true>R298.2 U52.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24614290</td>
+<td nowrap=true>LED4.1 U49.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24614292</td>
+<td nowrap=true>LED4.2 R312.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24614311</td>
+<td nowrap=true>R293.2 U49.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24614632</td>
+<td nowrap=true>R63.2 R67.2 U6.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24615197</td>
+<td nowrap=true>U14.4 U15.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24615574</td>
+<td nowrap=true>LED2.1 U12.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24615576</td>
+<td nowrap=true>LED2.2 R307.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24615595</td>
+<td nowrap=true>R113.2 U12.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24615636</td>
+<td nowrap=true>LED3.1 U43.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24615638</td>
+<td nowrap=true>LED3.2 R306.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24615657</td>
+<td nowrap=true>R284.2 U43.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24620522</td>
+<td nowrap=true>J5.2 U20.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24620524</td>
+<td nowrap=true>J5.3 U20.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24621818</td>
+<td nowrap=true>D20.1 R308.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24621867</td>
+<td nowrap=true>J14.13 R301.1 U45.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24621900</td>
+<td nowrap=true>J14.15 R302.1 U45.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24621909</td>
+<td nowrap=true>J14.16 R303.1 U45.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24621915</td>
+<td nowrap=true>J14.17 R283.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24624869</td>
+<td nowrap=true>R294.2 U48.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24625019</td>
+<td nowrap=true>R288.2 U44.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24625777</td>
+<td nowrap=true>J15.4 R114.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24626794</td>
+<td nowrap=true>C458.2 J12.8</td>
+</tr>
+<tr>
+<td nowrap=true>N24626808</td>
+<td nowrap=true>C454.2 J12.9</td>
+</tr>
+<tr>
+<td nowrap=true>N24627059</td>
+<td nowrap=true>C459.2 J13.8</td>
+</tr>
+<tr>
+<td nowrap=true>N24627073</td>
+<td nowrap=true>C455.2 J13.9</td>
+</tr>
+<tr>
+<td nowrap=true>N24641734</td>
+<td nowrap=true>FB24.1 J8.35</td>
+</tr>
+<tr>
+<td nowrap=true>N24641764</td>
+<td nowrap=true>D11.C J8.36 J8.38</td>
+</tr>
+<tr>
+<td nowrap=true>N24641768</td>
+<td nowrap=true>D11.A FB23.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24641774</td>
+<td nowrap=true>FB3.1 J8.37</td>
+</tr>
+<tr>
+<td nowrap=true>N24643223</td>
+<td nowrap=true>R253.2 U31.Y32</td>
+</tr>
+<tr>
+<td nowrap=true>N24643242</td>
+<td nowrap=true>R254.2 U31.Y34</td>
+</tr>
+<tr>
+<td nowrap=true>N24643296</td>
+<td nowrap=true>TP20.1 U31.AA35</td>
+</tr>
+<tr>
+<td nowrap=true>N24643317</td>
+<td nowrap=true>R255.2 U31.AA33</td>
+</tr>
+<tr>
+<td nowrap=true>N24643388</td>
+<td nowrap=true>R57.2 U31.AA31</td>
+</tr>
+<tr>
+<td nowrap=true>N24643422</td>
+<td nowrap=true>R258.2 U31.AB34</td>
+</tr>
+<tr>
+<td nowrap=true>N24643557</td>
+<td nowrap=true>R69.2 U31.AD34</td>
+</tr>
+<tr>
+<td nowrap=true>N24643574</td>
+<td nowrap=true>R259.2 U31.AC35</td>
+</tr>
+<tr>
+<td nowrap=true>N24645027</td>
+<td nowrap=true>R257.1 U5.33</td>
+</tr>
+<tr>
+<td nowrap=true>N24645056</td>
+<td nowrap=true>R256.1 U5.34</td>
+</tr>
+<tr>
+<td nowrap=true>N24645114</td>
+<td nowrap=true>TP22.1 U5.38</td>
+</tr>
+<tr>
+<td nowrap=true>N24645122</td>
+<td nowrap=true>TP13.1 U5.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24645130</td>
+<td nowrap=true>TP11.1 U5.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24645140</td>
+<td nowrap=true>TP12.1 U5.4</td>
+</tr>
+<tr>
+<td nowrap=true>N24645147</td>
+<td nowrap=true>C50.1 R29.1 R33.1 Y3.1 Y3.4</td>
+</tr>
+<tr>
+<td nowrap=true>N24645183</td>
+<td nowrap=true>R48.1 Y3.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24645185</td>
+<td nowrap=true>R48.2 U5.19</td>
+</tr>
+<tr>
+<td nowrap=true>N24645731</td>
+<td nowrap=true>R282.2 U37.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24645745</td>
+<td nowrap=true>R271.2 R280.2 U37.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24689793</td>
+<td nowrap=true>C46.2 R32.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24690647</td>
+<td nowrap=true>C39.2 R30.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24733096</td>
+<td nowrap=true>J9.2 R42.2 U4.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24733104</td>
+<td nowrap=true>R31.2 U4.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24741944</td>
+<td nowrap=true>R289.2 R292.1 U48.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24749978</td>
+<td nowrap=true>R291.2 R292.2 U48.4</td>
+</tr>
+<tr>
+<td nowrap=true>N24750722</td>
+<td nowrap=true>R286.2 R287.2 U44.4</td>
+</tr>
+<tr>
+<td nowrap=true>N24750819</td>
+<td nowrap=true>R285.2 R287.1 U44.3</td>
+</tr>
+<tr>
+<td nowrap=true>N24937245</td>
+<td nowrap=true>C398.2 R252.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24937247</td>
+<td nowrap=true>C383.1 L12.1 R252.2 U30.5 U30.6 U30.7 U30.14 U30.26</td>
+</tr>
+<tr>
+<td nowrap=true>N24937268</td>
+<td nowrap=true>R239.2 R240.1 U30.20</td>
+</tr>
+<tr>
+<td nowrap=true>N24937365</td>
+<td nowrap=true>C384.1 C385.1 C386.1 C391.1 FB25.2 L12.2 R249.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24937476</td>
+<td nowrap=true>C383.2 U30.15</td>
+</tr>
+<tr>
+<td nowrap=true>N24937491</td>
+<td nowrap=true>C391.2 R248.2 R249.1 U30.2</td>
+</tr>
+<tr>
+<td nowrap=true>N24937524</td>
+<td nowrap=true>R241.2 U30.21</td>
+</tr>
+<tr>
+<td nowrap=true>N24937560</td>
+<td nowrap=true>C389.1 R245.2 U30.1</td>
+</tr>
+<tr>
+<td nowrap=true>N24937594</td>
+<td nowrap=true>R243.1 U30.22</td>
+</tr>
+<tr>
+<td nowrap=true>N24937614</td>
+<td nowrap=true>C387.1 U30.24</td>
+</tr>
+<tr>
+<td nowrap=true>N24937633</td>
+<td nowrap=true>C388.1 R245.1</td>
+</tr>
+<tr>
+<td nowrap=true>N25063847</td>
+<td nowrap=true>C259.2 R143.1</td>
+</tr>
+<tr>
+<td nowrap=true>N25068109</td>
+<td nowrap=true>C282.2 R156.1</td>
+</tr>
+<tr>
+<td nowrap=true>N25068619</td>
+<td nowrap=true>C321.2 R178.1</td>
+</tr>
+<tr>
+<td nowrap=true>N25074045</td>
+<td nowrap=true>R314.1 U181.B3</td>
+</tr>
+<tr>
+<td nowrap=true>N25150165</td>
+<td nowrap=true>C1674.1 R315.2</td>
+</tr>
+<tr>
+<td nowrap=true>N25150958</td>
+<td nowrap=true>C1675.1 R316.2</td>
+</tr>
+<tr>
+<td nowrap=true>NVCC_MIPI_CSI_DSI</td>
+<td nowrap=true>C188.1 C204.1 C218.1 FB10.1 U31.AD16 U31.AE17</td>
+</tr>
+<tr>
+<td nowrap=true>OTG_PWR_EN</td>
+<td nowrap=true>R70.2 R270.1 R271.1 U37.4</td>
+</tr>
+<tr>
+<td nowrap=true>PCIE_LDO_CAP</td>
+<td nowrap=true>C92.1 C93.1 U31.L13</td>
+</tr>
+<tr>
+<td nowrap=true>PCIE_REF_QR</td>
+<td nowrap=true>R45.1 U31.F12</td>
+</tr>
+<tr>
+<td nowrap=true>PCIE_UART_RX</td>
+<td nowrap=true>R258.1 U19.2</td>
+</tr>
+<tr>
+<td nowrap=true>PCIE_UART_RX_3V3</td>
+<td nowrap=true>J6.13 U19.10</td>
+</tr>
+<tr>
+<td nowrap=true>PCIE_UART_TX</td>
+<td nowrap=true>R57.1 U19.3</td>
+</tr>
+<tr>
+<td nowrap=true>PCIE_UART_TX_3V3</td>
+<td nowrap=true>J6.11 U19.9</td>
+</tr>
+<tr>
+<td nowrap=true>PCIE_WAKE_LTE_GPIO4_02_3V3</td>
+<td nowrap=true>J6.1 R141.2 U31.A11</td>
+</tr>
+<tr>
+<td nowrap=true>PG_8200</td>
+<td nowrap=true>R182.2 TP42.1 U25.42</td>
+</tr>
+<tr>
+<td nowrap=true>PMIC_EWARN</td>
+<td nowrap=true>TP46.1 U25.20</td>
+</tr>
+<tr>
+<td nowrap=true>PMIC_FSOB</td>
+<td nowrap=true>R181.2 U25.29</td>
+</tr>
+<tr>
+<td nowrap=true>PMIC_I2C_SCL</td>
+<td nowrap=true>R225.1 TP8.1 U25.55 U31.AJ35</td>
+</tr>
+<tr>
+<td nowrap=true>PMIC_I2C_SDA</td>
+<td nowrap=true>R229.1 TP9.1 U25.56 U31.AH32</td>
+</tr>
+<tr>
+<td nowrap=true>PMIC_INT_B</td>
+<td nowrap=true>R80.1 R201.2 U31.AJ33</td>
+</tr>
+<tr>
+<td nowrap=true>PMIC_LDO2_EN</td>
+<td nowrap=true>R185.1 R186.2 R187.1</td>
+</tr>
+<tr>
+<td nowrap=true>PMIC_POR_B_1V8</td>
+<td nowrap=true>J8.6 R209.2 R210.2 U6.2 U31.AG31</td>
+</tr>
+<tr>
+<td nowrap=true>PMIC_SYNC_IN</td>
+<td nowrap=true>R203.1 U25.48</td>
+</tr>
+<tr>
+<td nowrap=true>PMIC_WDOG_IN</td>
+<td nowrap=true>R211.2 U15.4</td>
+</tr>
+<tr>
+<td nowrap=true>PM_TBBEN</td>
+<td nowrap=true>R228.1 R230.2 U25.14</td>
+</tr>
+<tr>
+<td nowrap=true>PM_VDDOTP</td>
+<td nowrap=true>R213.1 R214.2 U25.53</td>
+</tr>
+<tr>
+<td nowrap=true>POR_B_1V8</td>
+<td nowrap=true>R75.2 R90.1 U6.4</td>
+</tr>
+<tr>
+<td nowrap=true>PWR_EN#</td>
+<td nowrap=true>TP4.1 U2.41</td>
+</tr>
+<tr>
+<td nowrap=true>PWR_GND</td>
+<td nowrap=true>C5.2 D1.1 J2.2 J2.3 L1.2</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0A_CS#</td>
+<td nowrap=true>R73.2 U7.C2</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0A_SCLK</td>
+<td nowrap=true>R265.2 U7.B2</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0A_SS0_B</td>
+<td nowrap=true>R71.1 R73.1 U31.AM12</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0_DATA0</td>
+<td nowrap=true>R85.2 U7.D3</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0_DATA1</td>
+<td nowrap=true>R266.2 U7.D2</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0_DATA2</td>
+<td nowrap=true>R87.2 R106.1 U7.C4</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0_DATA3</td>
+<td nowrap=true>R89.2 U7.D4</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0_DATA4</td>
+<td nowrap=true>R93.2 U7.D5</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0_DATA5</td>
+<td nowrap=true>R86.2 U7.E3</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0_DATA6</td>
+<td nowrap=true>R82.2 U7.E2</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0_DATA7</td>
+<td nowrap=true>R81.2 U7.E1</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI0_DQS</td>
+<td nowrap=true>R94.2 U7.C3</td>
+</tr>
+<tr>
+<td nowrap=true>QSPI_RST_B</td>
+<td nowrap=true>R90.2 U7.A4</td>
+</tr>
+<tr>
+<td nowrap=true>RESET_N</td>
+<td nowrap=true>C281.1 C283.1 D4.A D5.A R6.2 U1.42</td>
+</tr>
+<tr>
+<td nowrap=true>REXT_BRG</td>
+<td nowrap=true>R279.1 U38.C5</td>
+</tr>
+<tr>
+<td nowrap=true>RTCK</td>
+<td nowrap=true>J7.7 R180.1</td>
+</tr>
+<tr>
+<td nowrap=true>RTC_XTALI</td>
+<td nowrap=true>C222.1 U31.AP32 Y5.2</td>
+</tr>
+<tr>
+<td nowrap=true>RTC_XTALO</td>
+<td nowrap=true>C221.1 U31.AM32 Y5.1</td>
+</tr>
+<tr>
+<td nowrap=true>RX1+</td>
+<td nowrap=true>J13.6 U10.1</td>
+</tr>
+<tr>
+<td nowrap=true>RX1-</td>
+<td nowrap=true>J13.5 U10.2</td>
+</tr>
+<tr>
+<td nowrap=true>RX3+</td>
+<td nowrap=true>J12.6 U9.1</td>
+</tr>
+<tr>
+<td nowrap=true>RX3-</td>
+<td nowrap=true>J12.5 U9.2</td>
+</tr>
+<tr>
+<td nowrap=true>SCU_BOOT_MODE0</td>
+<td nowrap=true>R206.2 SW3.1 U31.AJ31</td>
+</tr>
+<tr>
+<td nowrap=true>SCU_BOOT_MODE1</td>
+<td nowrap=true>R200.2 SW3.2 U31.AK32</td>
+</tr>
+<tr>
+<td nowrap=true>SCU_BOOT_MODE2</td>
+<td nowrap=true>R195.2 SW3.3 U31.AL31</td>
+</tr>
+<tr>
+<td nowrap=true>SCU_BOOT_MODE3</td>
+<td nowrap=true>R190.2 SW3.4 U31.AJ29</td>
+</tr>
+<tr>
+<td nowrap=true>SCU_PMIC_ON_REQ</td>
+<td nowrap=true>R96.2 R205.2 U31.AR31</td>
+</tr>
+<tr>
+<td nowrap=true>SCU_PMIC_STANDBY</td>
+<td nowrap=true>R204.2 U31.AG29</td>
+</tr>
+<tr>
+<td nowrap=true>SCU_WDOG_OUT</td>
+<td nowrap=true>R66.2 R76.2 U15.3</td>
+</tr>
+<tr>
+<td nowrap=true>SD1_SPWR</td>
+<td nowrap=true>C481.1 C482.1 C1673.1 J11.4 U181.B1</td>
+</tr>
+<tr>
+<td nowrap=true>SD_SUPPLY_SELECT</td>
+<td nowrap=true>R215.1 R218.2 R222.1 U31.A25</td>
+</tr>
+<tr>
+<td nowrap=true>SIM_1V8</td>
+<td nowrap=true>C262.1 C263.1 C325.1 C326.1 C327.1 ESD1.5 J6.8 J16.1 R208.1 TP34.1</td>
+</tr>
+<tr>
+<td nowrap=true>SIM_DETECT</td>
+<td nowrap=true>C337.1 ESD1.4 J16.7 R183.2 U31.AR27</td>
+</tr>
+<tr>
+<td nowrap=true>SLEEP_CTRL_GPIO4_01</td>
+<td nowrap=true>J6.31 U31.D10</td>
+</tr>
+<tr>
+<td nowrap=true>SW_CTRL_GPIO0_05</td>
+<td nowrap=true>U5.7 U31.B34</td>
+</tr>
+<tr>
+<td nowrap=true>SW_CTRL_GPIO4_15</td>
+<td nowrap=true>U5.8 U31.A23</td>
+</tr>
+<tr>
+<td nowrap=true>SYNC2</td>
+<td nowrap=true>TP50.1 U30.23</td>
+</tr>
+<tr>
+<td nowrap=true>TX1+</td>
+<td nowrap=true>C455.1 U10.4</td>
+</tr>
+<tr>
+<td nowrap=true>TX1-</td>
+<td nowrap=true>C459.1 U10.5</td>
+</tr>
+<tr>
+<td nowrap=true>TX3+</td>
+<td nowrap=true>C454.1 U9.4</td>
+</tr>
+<tr>
+<td nowrap=true>TX3-</td>
+<td nowrap=true>C458.1 U9.5</td>
+</tr>
+<tr>
+<td nowrap=true>TXAM</td>
+<td nowrap=true>J4.P3 U1.3</td>
+</tr>
+<tr>
+<td nowrap=true>TXAP</td>
+<td nowrap=true>J4.P2 U1.2</td>
+</tr>
+<tr>
+<td nowrap=true>TXBM</td>
+<td nowrap=true>J4.P5 U1.6</td>
+</tr>
+<tr>
+<td nowrap=true>TXBP</td>
+<td nowrap=true>J4.P4 U1.5</td>
+</tr>
+<tr>
+<td nowrap=true>TXCM</td>
+<td nowrap=true>J4.P7 U1.8</td>
+</tr>
+<tr>
+<td nowrap=true>TXCP</td>
+<td nowrap=true>J4.P6 U1.7</td>
+</tr>
+<tr>
+<td nowrap=true>TXDM</td>
+<td nowrap=true>J4.P9 U1.11</td>
+</tr>
+<tr>
+<td nowrap=true>TXDP</td>
+<td nowrap=true>J4.P8 U1.10</td>
+</tr>
+<tr>
+<td nowrap=true>UIM_CLK</td>
+<td nowrap=true>C342.1 ESD1.3 J16.3 R145.2</td>
+</tr>
+<tr>
+<td nowrap=true>UIM_DATA</td>
+<td nowrap=true>C352.1 ESD1.6 J16.6 R144.2 R208.2</td>
+</tr>
+<tr>
+<td nowrap=true>UIM_RST</td>
+<td nowrap=true>C348.1 C351.1 ESD1.1 J16.2 R146.2</td>
+</tr>
+<tr>
+<td nowrap=true>USB1_DN</td>
+<td nowrap=true>U11.7 U31.E19</td>
+</tr>
+<tr>
+<td nowrap=true>USB1_DP</td>
+<td nowrap=true>U11.6 U31.D18</td>
+</tr>
+<tr>
+<td nowrap=true>USB2_DN</td>
+<td nowrap=true>R102.1 U31.D16</td>
+</tr>
+<tr>
+<td nowrap=true>USB2_DP</td>
+<td nowrap=true>R103.1 U31.E17</td>
+</tr>
+<tr>
+<td nowrap=true>USB3_SS3_RX_N</td>
+<td nowrap=true>C187.1 U31.B18</td>
+</tr>
+<tr>
+<td nowrap=true>USB3_SS3_RX_P</td>
+<td nowrap=true>C186.1 U31.A19</td>
+</tr>
+<tr>
+<td nowrap=true>USB3_SS3_TX_N</td>
+<td nowrap=true>C372.2 U8.8</td>
+</tr>
+<tr>
+<td nowrap=true>USB3_SS3_TX_P</td>
+<td nowrap=true>C373.2 U8.9</td>
+</tr>
+<tr>
+<td nowrap=true>USBDN_DM1</td>
+<td nowrap=true>U8.59 U41.7</td>
+</tr>
+<tr>
+<td nowrap=true>USBDN_DM2</td>
+<td nowrap=true>R111.1 U8.63</td>
+</tr>
+<tr>
+<td nowrap=true>USBDN_DM3</td>
+<td nowrap=true>U8.64 U42.7</td>
+</tr>
+<tr>
+<td nowrap=true>USBDN_DM4</td>
+<td nowrap=true>U8.68 U23.2</td>
+</tr>
+<tr>
+<td nowrap=true>USBDN_DP1</td>
+<td nowrap=true>U8.60 U41.6</td>
+</tr>
+<tr>
+<td nowrap=true>USBDN_DP2</td>
+<td nowrap=true>R112.1 U8.62</td>
+</tr>
+<tr>
+<td nowrap=true>USBDN_DP3</td>
+<td nowrap=true>U8.65 U42.6</td>
+</tr>
+<tr>
+<td nowrap=true>USBDN_DP4</td>
+<td nowrap=true>U8.67 U23.3</td>
+</tr>
+<tr>
+<td nowrap=true>USB_HUB_RST_N_3V3</td>
+<td nowrap=true>R267.1 U31.H14</td>
+</tr>
+<tr>
+<td nowrap=true>USB_OTG1_ID</td>
+<td nowrap=true>R34.2 R114.2 U11.4</td>
+</tr>
+<tr>
+<td nowrap=true>USB_OTG1_VBUS</td>
+<td nowrap=true>C37.1 C472.1 FB35.2 R25.2 U37.1</td>
+</tr>
+<tr>
+<td nowrap=true>USB_OTG2_ID</td>
+<td nowrap=true>R28.1 TP15.1 U31.F16</td>
+</tr>
+<tr>
+<td nowrap=true>USB_OTG_ID</td>
+<td nowrap=true>R34.1 R41.1 U31.G17</td>
+</tr>
+<tr>
+<td nowrap=true>USB_SSRXM_DN1</td>
+<td nowrap=true>U8.50 U10.9</td>
+</tr>
+<tr>
+<td nowrap=true>USB_SSRXM_DN3</td>
+<td nowrap=true>U8.36 U9.9</td>
+</tr>
+<tr>
+<td nowrap=true>USB_SSRXP_DN1</td>
+<td nowrap=true>U8.51 U10.10</td>
+</tr>
+<tr>
+<td nowrap=true>USB_SSRXP_DN3</td>
+<td nowrap=true>U8.35 U9.10</td>
+</tr>
+<tr>
+<td nowrap=true>USB_SSTXM_DN1</td>
+<td nowrap=true>U8.48 U10.6</td>
+</tr>
+<tr>
+<td nowrap=true>USB_SSTXM_DN3</td>
+<td nowrap=true>U8.39 U9.6</td>
+</tr>
+<tr>
+<td nowrap=true>USB_SSTXP_DN1</td>
+<td nowrap=true>U8.47 U10.7</td>
+</tr>
+<tr>
+<td nowrap=true>USB_SSTXP_DN3</td>
+<td nowrap=true>U8.38 U9.7</td>
+</tr>
+<tr>
+<td nowrap=true>USB_VBUS</td>
+<td nowrap=true>FB19.1 J5.1 U20.1</td>
+</tr>
+<tr>
+<td nowrap=true>USB_VBUS_OTG</td>
+<td nowrap=true>C474.1 FB35.1 J15.1 U11.1</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC0_CLK</td>
+<td nowrap=true>R30.1 R37.2 U5.29</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC0_CMD</td>
+<td nowrap=true>U5.26 U31.D20</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC0_DATA0</td>
+<td nowrap=true>U5.22 U31.C21</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC0_DATA1</td>
+<td nowrap=true>U5.23 U31.A21</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC0_DATA2</td>
+<td nowrap=true>U5.25 U31.E21</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC0_DATA3</td>
+<td nowrap=true>U5.27 U31.H20</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC1_CD_B</td>
+<td nowrap=true>D12.2 J11.9 R39.1 U31.E23</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC1_CLK</td>
+<td nowrap=true>D15.2 J11.5 R32.1 R35.2</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC1_CMD</td>
+<td nowrap=true>D19.2 J11.3 R300.2 U31.C25</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC1_DAT0</td>
+<td nowrap=true>D17.2 J11.7 R299.2 U31.A27</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC1_DAT1</td>
+<td nowrap=true>D18.2 J11.8 U31.B26</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC1_DAT2</td>
+<td nowrap=true>D14.2 J11.1 U31.D26</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC1_DAT3</td>
+<td nowrap=true>D16.2 J11.2 U31.E25</td>
+</tr>
+<tr>
+<td nowrap=true>USDHC1_RESET_B</td>
+<td nowrap=true>R313.2 U31.B24 U181.A3</td>
+</tr>
+<tr>
+<td nowrap=true>USER_LED1</td>
+<td nowrap=true>R295.1 U31.D22</td>
+</tr>
+<tr>
+<td nowrap=true>USER_LED2</td>
+<td nowrap=true>R297.1 U31.K28</td>
+</tr>
+<tr>
+<td nowrap=true>USER_LED3</td>
+<td nowrap=true>R298.1 U31.C33</td>
+</tr>
+<tr>
+<td nowrap=true>USER_LED4</td>
+<td nowrap=true>R293.1 U31.D24</td>
+</tr>
+<tr>
+<td nowrap=true>VCCA_1V5</td>
+<td nowrap=true>C324.1 U25.41</td>
+</tr>
+<tr>
+<td nowrap=true>VCCD_1V5</td>
+<td nowrap=true>C320.1 R214.1 R230.1 U25.40</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_1V2</td>
+<td nowrap=true>C11.1 C14.1 C280.1 C292.1 FB11.2 FB16.1 FB17.1 FB20.1 FB26.2 TP37.1 U1.14 U1.18 U1.23 U1.26 U1.30 U1.39</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_1V2_EN</td>
+<td nowrap=true>R79.2 R155.1 U21.13</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_1V2_EN_GPIO3_0</td>
+<td nowrap=true>R79.1 U31.AK26</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_1V8</td>
+<td nowrap=true>C12.1 C22.1 C60.1 C66.1 C69.1 C72.2 C73.2 C74.2 C79.1 C80.2 C83.2 C84.2 C86.1 C88.1 C96.2 C97.2 C105.2 C106.1 C107.2 C127.1 C134.1 C140.2 C147.1 C152.1 C153.2 C156.1 C166.2 C167.2 C175.2 C178.1 C181.1 C183.1 C185.2 C189.1 C191.2 C193.1 C195.1 C196.1 C205.1 C269.1 C279.1 C286.1 C290.1 C293.1 C299.1 C302.1 C328.1 C336.1 C344.1 C350.1 C353.1 C355.1 C410.1 C418.1 C422.1 C423.1 C471.1 D4.C FB4.2 FB5.2 FB7.2 FB8.2 FB10.2 FB12.1 FB13.1 FB14.1 FB15.1 FB24.2 FB28.2 FB29.1 FB30.1 FB32.1 FB34.1 L5.1 R6.1 R7.1 R8.2 R10.2 R11.1 R13.1 R14.1 R15.1 R16.1 R17.1 R24.1 R29.2 R54.1 R60.2 R61.2 R62.2 R71.2 R72.2 R97.2 R99.2 R106.2 R109.2 R148.1 R149.1 R152.1 R183.1 R198.2 R199.2 R220.1 R221.2 R223.1 R224.1 R226.1 R250.2 R251.2 R264.1 R268.1 R281.2 R290.2 R313.1 TP38.1 U1.16 U1.34 U1.40 U3.8 U5.20 U7.B4 U7.D1 U7.E4 U18.1 U18.5 U19.1 U19.12 U24.1 U24.16 U25.30 U26.8 U27.8 U28.7 U31.AA25 U31.AD24 U31.AE13 U31.AE15 U31.AE21 U31.L19 U31.L21 U31.L23 U31.L25 U31.M20 U31.M24 U31.N25 U31.R25 U31.U25 U31.W25 U31.Y24 U32.F1 U32.F12 U32.G4 U32.G9 U32.T4 U32.T9 U32.U1 U32.U12</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_3V3</td>
+<td nowrap=true>C32.1 C34.1 C35.1 C36.1 C61.1 C64.1 C65.1 C77.1 C82.1 C87.1 C265.1 C284.1 C297.1 C301.1 C414.1 C416.1 C417.1 C425.1 C426.1 C427.1 C428.1 C429.1 C433.1 C446.1 C1671.1 FB1.2 FB2.2 FB6.2 FB22.2 FB27.2 FB31.1 L4.1 R108.2 R110.2 R121.2 R123.2 R155.2 R262.1 R263.1 R306.2 R307.2 R308.1 R309.2 R310.2 R311.2 R312.2 TP6.1 U8.28 U8.56 U8.61 U8.66 U18.8 U19.11 U25.38 U31.H16 U31.L15 U181.A1</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_3V3_PCIE</td>
+<td nowrap=true>C252.1 C257.1 C258.1 C309.1 C310.1 C313.1 C317.1 C332.1 C334.1 C335.1 C339.1 C345.1 C356.1 FB22.1 J6.2 J6.39 J6.41 J6.52 R23.1 R141.1 R161.1 R162.1</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_3V3_USB</td>
+<td nowrap=true>R84.2 R88.2 R107.1</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_12V</td>
+<td nowrap=true>C5.1 F1.2 L1.1</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_12V0</td>
+<td nowrap=true>C1.1 C2.1 C3.1 C243.1 C248.1 C253.1 C254.1 C370.1 C380.1 C381.1 C382.1 FB23.1 J3.2 R1.1 R132.2 R240.2 TP1.1 U16.22 U16.23 U16.24 U16.25 U16.26 U16.27 U30.16 U30.17 U30.18 U30.19</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_12V_IN</td>
+<td nowrap=true>D1.2 F1.1 J2.1 TP2.1</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_CPU_1V1</td>
+<td nowrap=true>C148.1 C149.1 C150.1 C151.1 C154.1 C155.1 C161.1 C162.1 C365.1 C366.1 C434.1 C435.1 C436.1 C437.1 C438.1 C439.1 C440.1 C441.1 C442.1 C443.1 C444.1 L8.1 TP10.1 U25.12 U31.AA15 U31.AA17 U31.AA19 U31.AB16 U31.AB18 U31.AB20</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_DDRIO_1V1</td>
+<td nowrap=true>C53.1 C54.2 C55.1 C56.2 C57.1 C59.1 C67.2 C68.2 C78.1 C85.2 C89.1 C90.2 C94.1 C100.2 C102.1 C110.1 C112.1 C113.1 C116.2 C126.1 C128.2 C130.1 C131.2 C132.2 C133.2 C135.2 C143.2 C144.2 C145.1 C146.1 C158.2 C159.2 C165.1 C168.1 C176.2 C179.2 C184.1 C190.2 C192.1 C206.1 C209.2 C210.1 C211.1 C212.2 C213.2 C214.1 C215.2 C216.1 C219.1 C220.1 C300.1 C303.1 C401.1 C407.1 C409.1 C419.1 C420.1 C421.1 L6.1 R53.1 R68.1 R260.1 R261.1 TP40.1 U25.31 U31.AA9 U31.AA11 U31.AC11 U31.AD12 U31.AE11 U31.M12 U31.N9 U31.N11 U31.R7 U31.R11 U31.T12 U31.U11 U31.W11 U31.Y12 U32.A4 U32.A9 U32.AA3 U32.AA5 U32.AA8 U32.AA10 U32.AB4 U32.AB9 U32.B3 U32.B5 U32.B8 U32.B10 U32.D1 U32.D5 U32.D8 U32.D12 U32.F3 U32.F5 U32.F8 U32.F10 U32.H1 U32.H5 U32.H8 U32.H12 U32.K1 U32.K3 U32.K10 U32.K12 U32.N1 U32.N3 U32.N10 U32.N12 U32.R1 U32.R5 U32.R8 U32.R12 U32.U3 U32.U5 U32.U8 U32.U10 U32.W1 U32.W5 U32.W8 U32.W12</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_EXT_3V3</td>
+<td nowrap=true>FB21.1 R188.1 TP44.1</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_EXT_5V0</td>
+<td nowrap=true>C25.1 C26.1 C27.1 C28.1 C29.1 C30.1 C31.1 C33.1 C285.1 C288.1 C314.1 C315.1 C316.1 C318.1 C319.1 C322.1 C323.1 C347.1 C349.1 FB18.1 J9.1 R157.1 R159.2 R175.1 R176.1 R192.1 R193.1 R231.1 TP35.1 U21.14 U21.15 U21.16 U21.25 U21.26 U21.27 U25.4 U25.7 U25.8 U25.11 U25.32 U25.35 U25.37 U25.50</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_GPU_1V1</td>
+<td nowrap=true>C108.1 C114.1 C117.1 C118.1 C119.1 C120.1 C121.1 C122.1 C123.1 C124.1 C136.1 C137.1 C141.1 C367.1 C368.1 C392.1 C393.1 C394.1 C395.1 C396.1 C397.1 L10.1 TP19.1 U25.13 U31.N23 U31.P20 U31.P22 U31.R21 U31.T22 U31.U23 U31.V20 U31.W21</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_LDO3_NC</td>
+<td nowrap=true>C343.1 R196.2 U25.25</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_LDO4_NC</td>
+<td nowrap=true>C329.1 U25.28</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_MAIN_1V0</td>
+<td nowrap=true>C41.1 C42.1 C43.1 C44.1 C45.1 C99.1 C101.1 C103.1 C104.1 C109.1 C115.1 C129.1 C139.1 C142.1 C157.1 C170.1 C171.1 C173.1 C361.1 C362.1 C363.1 C364.1 C374.1 C375.1 C376.1 C377.1 C378.1 L9.1 L11.1 TP49.1 U25.2 U25.3 U31.AA23 U31.AB12 U31.AC13 U31.AC17 U31.AC21 U31.AD14 U31.AD18 U31.AD22 U31.AE19 U31.N15 U31.N19 U31.P12 U31.P16 U31.P24 U31.R13 U31.R17 U31.T14 U31.T18 U31.U15 U31.U19 U31.V12 U31.V16 U31.V24 U31.W13 U31.W17 U31.Y14 U31.Y18 U31.Y22</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_SCU_1V8</td>
+<td nowrap=true>C38.1 C40.1 C48.1 C49.1 C91.1 C180.1 C249.1 C250.1 C307.2 C357.1 C359.1 C369.1 C371.1 C379.1 FB9.2 R12.1 R21.1 R22.1 R64.2 R67.1 R75.1 R80.2 R137.1 R163.1 R173.2 R181.1 R182.1 R186.1 R191.2 R194.2 R196.1 R202.2 R207.2 R210.1 R218.1 R225.2 R229.2 TP24.1 U6.6 U14.5 U15.5 U22.5 U25.15 U25.54 U31.M14</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_SCU_XTAL_1V8</td>
+<td nowrap=true>C160.2 C217.1 FB9.1 U31.AB24</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_SD1_3V3</td>
+<td nowrap=true>C70.1 C71.1 C354.1 R299.1 R300.1 TP48.1 U25.18 U31.M22</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_SNVS_3V3</td>
+<td nowrap=true>C172.2 C174.2 C244.1 C340.1 TP45.1 U13.4 U25.47 U31.AC25</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_SNVS_LDO_1V8</td>
+<td nowrap=true>C177.2 C182.1 R3.2 R96.1 U31.AE25</td>
+</tr>
+<tr>
+<td nowrap=true>VCC_VPP_1V8</td>
+<td nowrap=true>R264.2 U7.C5</td>
+</tr>
+<tr>
+<td nowrap=true>VDD_ADC_1V8</td>
+<td nowrap=true>C111.1 C125.1 C138.1 FB7.1 U31.U29 U31.V28</td>
+</tr>
+<tr>
+<td nowrap=true>VDD_DDR_PLL_1P8</td>
+<td nowrap=true>C163.1 C164.1 C169.2 FB8.1 U31.AC9</td>
+</tr>
+<tr>
+<td nowrap=true>VDD_PCIE_1P8_A</td>
+<td nowrap=true>C47.1 C62.1 C63.1 FB4.1 U31.G13</td>
+</tr>
+<tr>
+<td nowrap=true>VDD_USB_1V8_A</td>
+<td nowrap=true>C58.1 C95.1 C98.1 FB5.1 U31.M18</td>
+</tr>
+<tr>
+<td nowrap=true>VDD_USB_LDO_1P0_CAP</td>
+<td nowrap=true>C75.1 C76.1 C81.1 U31.L17 U31.M16</td>
+</tr>
+<tr>
+<td nowrap=true>VIN2</td>
+<td nowrap=true>U181.A2</td>
+</tr>
+<tr>
+<td nowrap=true>VREG_5V</td>
+<td nowrap=true>C255.1 R135.2 U16.4</td>
+</tr>
+<tr>
+<td nowrap=true>VREG_8V</td>
+<td nowrap=true>C390.1 R241.1 U30.3</td>
+</tr>
+<tr>
+<td nowrap=true>VSS_SCU_XTAL</td>
+<td nowrap=true>C160.1 C221.2 C222.2 R83.2 U31.AN33 U31.AN35 U31.AR33</td>
+</tr>
+<tr>
+<td nowrap=true>VUSB_2</td>
+<td nowrap=true>C479.1 C480.1 J12.1 U42.1 U48.1</td>
+</tr>
+<tr>
+<td nowrap=true>VUSB_3</td>
+<td nowrap=true>C475.1 C476.1 J13.1 U41.1 U44.1</td>
+</tr>
+<tr>
+<td nowrap=true>WAKE_HOST_3V3</td>
+<td nowrap=true>J6.17 U19.8</td>
+</tr>
+<tr>
+<td nowrap=true>WAKE_HOST_GPIO3_2</td>
+<td nowrap=true>U19.4 U31.AP28</td>
+</tr>
+<tr>
+<td nowrap=true>WI-FI_LED_GPIO4_17</td>
+<td nowrap=true>R284.1 U31.F22</td>
+</tr>
+<tr>
+<td nowrap=true>WLAN_HOST_WAKE_GPIO3_23</td>
+<td nowrap=true>U5.13 U31.AH10</td>
+</tr>
+<tr>
+<td nowrap=true>WLREG_ON_GPIO3_24</td>
+<td nowrap=true>R24.2 U5.12 U31.AJ9</td>
+</tr>
+<tr>
+<td nowrap=true>WL_BT_GPIO3_18</td>
+<td nowrap=true>U5.10 U31.AD32</td>
+</tr>
+<tr>
+<td nowrap=true>WL_BT_GPIO3_19</td>
+<td nowrap=true>U5.9 U31.AE35</td>
+</tr>
+<tr>
+<td nowrap=true>W_DISABLE_GPIO3_1</td>
+<td nowrap=true>C291.2 R160.2 R161.2 TP39.1 U31.C15</td>
+</tr>
+<tr>
+<td nowrap=true>XTALI</td>
+<td nowrap=true>C223.2 U8.55 Y4.1</td>
+</tr>
+<tr>
+<td nowrap=true>XTALO</td>
+<td nowrap=true>C226.2 U8.54 Y4.3</td>
+</tr>
+</table>
+</body>
+</body>
+</html>

@@ -1,0 +1,78 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : eI_Arrow_IMX8XML_RD_LAYOUT.brd                )
+(    Software Version : 17.2S053                                      )
+(    Date/Time        : Tue Apr 30 19:27:05 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < Fab.gbr >
+     TO FILE < D:/Projects/IMX8XML/gama/final/Fab.gbr > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Photoplot window (3402500 x 2215000) exceeds film size (2400000 x 1600000)
+          stated in parameter file. 
+
+    WARNING: text composed 0 width line found at (-13363.65 -3265.78) in MIL
+           ... using undefined line width of 10.00 MIL
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 10.00 MIL
+
+    WARNING: 0 width line found at (6528.00 1635.00) in MIL
+           ... using undefined line width of 10.00 MIL
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 10.00 MIL
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+
+     Fab.gbr created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        Fab.gbr created with warnings
+
+ ARTWORK had warnings
