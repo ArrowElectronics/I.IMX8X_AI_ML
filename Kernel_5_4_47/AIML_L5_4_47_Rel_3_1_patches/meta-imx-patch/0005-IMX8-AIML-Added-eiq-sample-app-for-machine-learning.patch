@@ -1,0 +1,124 @@
+From 803870b618717b3b299fbdf384b8374604230ec0 Mon Sep 17 00:00:00 2001
+From: "Darshak.patel" <darshak.patel@einfochips.com>
+Date: Fri, 20 Nov 2020 12:53:54 +0530
+Subject: [PATCH 5/6] IMX8 AIML: Added eiq-sample-app for machine learning
+
+---
+ .../eiq-sample-apps/eiq-sample-apps_1.0.bb    | 56 +++++++++++++++++++
+ .../files/0001-make-file-change.patch         | 41 ++++++++++++++
+ 2 files changed, 97 insertions(+)
+ create mode 100644 meta-ml/recipes-apps/eiq-sample-apps/eiq-sample-apps_1.0.bb
+ create mode 100644 meta-ml/recipes-apps/eiq-sample-apps/files/0001-make-file-change.patch
+
+diff --git a/meta-ml/recipes-apps/eiq-sample-apps/eiq-sample-apps_1.0.bb b/meta-ml/recipes-apps/eiq-sample-apps/eiq-sample-apps_1.0.bb
+new file mode 100644
+index 000000000..ba548a76a
+--- /dev/null
++++ b/meta-ml/recipes-apps/eiq-sample-apps/eiq-sample-apps_1.0.bb
+@@ -0,0 +1,56 @@
++# Copyright (C) 2019 NXP
++
++SUMMARY = "eIQ Sample Apps"
++DESCRIPTION = "This repository includes the source codes for some demo applications to get started with the eIQ Toolkit."
++LICENSE = "MIT & Apache-2.0 & BSD-3-Clause"
++# Each demo has its own LICENSE
++LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302 \
++                    file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10 \
++                    file://${COMMON_LICENSE_DIR}/BSD-3-Clause;md5=550794465ba0ec5312d6919e203a55f9"
++
++DEPENDS = "armnn opencv tensorflow-lite make-native"
++RDEPENDS_${PN} = "python3 armnn opencv tensorflow-lite"
++
++EIQ_SAMPLE_APPS_SRC = "git://source.codeaurora.org/external/imxsupport/eiq_sample_apps.git;protocol=https"
++SRCBRANCH = "master"
++SRC_URI = "${EIQ_SAMPLE_APPS_SRC};branch=${SRCBRANCH}"
++SRCREV = "${AUTOREV}"
++
++S = "${WORKDIR}/git"
++
++INSANE_SKIP_${PN} = "ldflags"
++PATCHTOOL = "git"
++
++FILESEXTRAPATHS_append := "${THISDIR}/files"
++SRC_URI += "file://0001-make-file-change.patch"
++
++do_configure() {
++    mkdir -p ${S}/examples-armnn/handwritten_digit/armnn
++    wget https://raw.githubusercontent.com/ARM-software/ML-examples/master/armnn-mnist/mnist_loader.hpp -P ${S}/examples-armnn/handwritten_digit/armnn
++}
++
++do_compile() {
++    # armnn C++ demos
++    cd ${S}/examples-armnn/handwritten_digit/src
++    ${CXX} -Wall -Wextra -O3 -std=c++14 caffe_inference.cpp -o caffe_inference -larmnn -larmnnCaffeParser
++    ${CXX} -Wall -Wextra -O3 -std=c++14 tensorflow_inference.cpp -o tensorflow_inference -larmnn -larmnnTfParser
++
++    # tflite C++ demos
++    cd ${S}/examples-tflite/face_recognition/src
++	echo "************* ARJUN : make -f Makefile.linux sys_root=${STAGING_DIR_TARGET}\n"
++    make -f Makefile.linux sys_root=${STAGING_DIR_TARGET}
++}
++
++do_install() {
++    mkdir -m777 -p ${D}/opt/armnn
++    mkdir -m777 -p ${D}/opt/opencv
++    mkdir -m777 -p ${D}/opt/tflite
++
++    cp ${S}/examples-armnn/handwritten_digit/src/*_inference ${D}/opt/armnn
++    cp ${S}/examples-armnn/obj_recognition/src/* ${D}/opt/armnn
++    cp ${S}/examples-opencv/obj_recognition/src/* ${D}/opt/opencv
++    cp ${S}/examples-tflite/face_recognition/src/FaceRecognition ${D}/opt/tflite
++}
++
++FILES_${PN} = "/opt/armnn /opt/opencv /opt/tflite"
++COMPATIBLE_MACHINE = "(mx8)"
+diff --git a/meta-ml/recipes-apps/eiq-sample-apps/files/0001-make-file-change.patch b/meta-ml/recipes-apps/eiq-sample-apps/files/0001-make-file-change.patch
+new file mode 100644
+index 000000000..e1f8de849
+--- /dev/null
++++ b/meta-ml/recipes-apps/eiq-sample-apps/files/0001-make-file-change.patch
+@@ -0,0 +1,41 @@
++From 2ea785b798594fea82ca31715f90c8a6c344b402 Mon Sep 17 00:00:00 2001
++From: "Darshak.patel" <darshak.patel@einfochips.com>
++Date: Wed, 18 Nov 2020 13:32:43 +0530
++Subject: [PATCH] make file change
++
++---
++ examples-tflite/face_recognition/src/Makefile       | 3 ++-
++ examples-tflite/face_recognition/src/Makefile.linux | 3 ++-
++ 2 files changed, 4 insertions(+), 2 deletions(-)
++
++diff --git a/examples-tflite/face_recognition/src/Makefile b/examples-tflite/face_recognition/src/Makefile
++index 99dc026..4fa1f2c 100644
++--- a/examples-tflite/face_recognition/src/Makefile
+++++ b/examples-tflite/face_recognition/src/Makefile
++@@ -5,7 +5,8 @@ SOURCES=face_recognition.cpp face_detect_helpers.cpp
++ 
++ LIBS= -ltensorflow-lite -lpthread -ldl -g \
++       -lopencv_objdetect -lopencv_highgui -lopencv_imgproc -lopencv_core -lopencv_videoio -lopencv_imgcodecs
++-INC=-I /usr/include/tensorflow/contrib/lite/tools/make/downloads/flatbuffers/include/ 
+++INC=-I /usr/include/tensorflow/contrib/lite/tools/make/downloads/flatbuffers/include/ \
+++	-I /usr/include/tensorflow/lite/tools/make/downloads/absl/
++ 
++ all: $(PROG)
++ 	
++diff --git a/examples-tflite/face_recognition/src/Makefile.linux b/examples-tflite/face_recognition/src/Makefile.linux
++index d5c5acc..8ecf6c7 100644
++--- a/examples-tflite/face_recognition/src/Makefile.linux
+++++ b/examples-tflite/face_recognition/src/Makefile.linux
++@@ -5,7 +5,8 @@ SOURCES=face_recognition.cpp face_detect_helpers.cpp
++ 
++ LIBS= -ltensorflow-lite -lpthread -lrt -ldl -g \
++       -lopencv_objdetect -lopencv_highgui -lopencv_imgproc -lopencv_core -lopencv_videoio -lopencv_imgcodecs
++-INC=-I $(SDKTARGETSYSROOT)/usr/include/tensorflow/lite/tools/make/downloads/flatbuffers/include/ 
+++INC=-I ${sys_root}/usr/include/tensorflow/lite/tools/make/downloads/flatbuffers/include/ \
+++	-I ${sys_root}/usr/include/tensorflow/lite/tools/make/downloads/absl/
++ 
++ all: $(PROG)
++ 	
++-- 
++2.7.4
++
+-- 
+2.17.1
+

@@ -1,0 +1,24 @@
+From 14a37b7d294bbc34d7daf2a89c5a243e5f37c979 Mon Sep 17 00:00:00 2001
+From: "darshak.patel" <darshak.patel@einfochips.com>
+Date: Wed, 23 Dec 2020 18:05:08 +0530
+Subject: [PATCH 6/6] IMX8: Added meta-laird-cp layer in layer config
+
+---
+ tools/imx-setup-release.sh | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/tools/imx-setup-release.sh b/tools/imx-setup-release.sh
+index 8b423bef8..56f91332b 100755
+--- a/tools/imx-setup-release.sh
++++ b/tools/imx-setup-release.sh
+@@ -184,6 +184,7 @@ echo "BBLAYERS += \"\${BSPDIR}/sources/meta-openembedded/meta-networking\"" >> $
+ echo "BBLAYERS += \"\${BSPDIR}/sources/meta-openembedded/meta-filesystems\"" >> $BUILD_DIR/conf/bblayers.conf
+ echo "BBLAYERS += \"\${BSPDIR}/sources/meta-quectel-community\"" >> $BUILD_DIR/conf/bblayers.conf
+ echo "BBLAYERS += \"\${BSPDIR}/sources/meta-einfochips\"" >> $BUILD_DIR/conf/bblayers.conf
++echo "BBLAYERS += \"\${BSPDIR}/sources/meta-laird-cp\"" >> $BUILD_DIR/conf/bblayers.conf
+ 
+ echo "BBLAYERS += \"\${BSPDIR}/sources/meta-qt5\"" >> $BUILD_DIR/conf/bblayers.conf
+ echo "BBLAYERS += \"\${BSPDIR}/sources/meta-python2\"" >> $BUILD_DIR/conf/bblayers.conf
+-- 
+2.17.1
+

@@ -1,0 +1,24 @@
+From 516ecadffa067438c8eadb8e0634dfd8d64d67a6 Mon Sep 17 00:00:00 2001
+From: "darshak.patel" <darshak.patel@einfochips.com>
+Date: Wed, 23 Dec 2020 18:09:04 +0530
+Subject: [PATCH] IMX8: Remove wireless-regdb-static
+
+---
+ meta/recipes-core/packagegroups/packagegroup-base.bb | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/meta/recipes-core/packagegroups/packagegroup-base.bb b/meta/recipes-core/packagegroups/packagegroup-base.bb
+index 1f802da09b..7438718bf5 100644
+--- a/meta/recipes-core/packagegroups/packagegroup-base.bb
++++ b/meta/recipes-core/packagegroups/packagegroup-base.bb
+@@ -269,7 +269,6 @@ RRECOMMENDS_packagegroup-base-ipsec = "\
+ SUMMARY_packagegroup-base-wifi = "WiFi support"
+ RDEPENDS_packagegroup-base-wifi = "\
+     iw \
+-    wireless-regdb-static \
+     wpa-supplicant"
+ 
+ RRECOMMENDS_packagegroup-base-wifi = "\
+-- 
+2.17.1
+

@@ -1,0 +1,34 @@
+From f1aef36adce831a02585287fb05b460fb5965ac7 Mon Sep 17 00:00:00 2001
+From: "darshak.patel" <darshak.patel@einfochips.com>
+Date: Thu, 31 Dec 2020 17:52:22 +0530
+Subject: [PATCH] brcmfmac: Use request_firmware_direct for the clm_blob
+
+The brcmfmac driver does support the separate clm_blob file and always
+tries to load this. Currently we use request_firmware for this. This means
+that on any standard install, using the standard combo of linux-kernel +
+linux-firmware, we will get a warning:
+"Direct firmware load for ... failed with error -2"
+
+On top of this, brcmfmac itself prints: "no clm_blob available (err=-2),
+device may have limited channels available" and we will get a slow
+fallback to the userspace firmware loading mechanism.
+---
+ drivers/net/wireless/broadcom/brcm80211/brcmfmac/common.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/drivers/net/wireless/broadcom/brcm80211/brcmfmac/common.c b/drivers/net/wireless/broadcom/brcm80211/brcmfmac/common.c
+index b720535..41c4875 100644
+--- a/drivers/net/wireless/broadcom/brcm80211/brcmfmac/common.c
++++ b/drivers/net/wireless/broadcom/brcm80211/brcmfmac/common.c
+@@ -146,7 +146,7 @@ static int brcmf_c_process_clm_blob(struct brcmf_if *ifp)
+ 		return err;
+ 	}
+ 
+-	err = firmware_request_nowarn(&clm, clm_name, bus->dev);
++	err = request_firmware_direct(&clm, clm_name, bus->dev);
+ 	if (err) {
+ 		brcmf_info("no clm_blob available (err=%d), device may have limited channels available\n",
+ 			   err);
+-- 
+2.17.1
+
